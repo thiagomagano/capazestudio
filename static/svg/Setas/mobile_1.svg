@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.48 21.42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fe5f2d;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fe5f2d;
+        stroke-miterlimit: 10;
+        stroke-width: .75px;
+      }
+    </style>
+  </defs>
+  <g id="Design_Mobile" data-name="Design / Mobile">
+    <g>
+      <polyline class="cls-2" points="44.48 .37 3.06 .37 3.06 20.6"/>
+      <polygon class="cls-1" points="0 18.12 .55 17.61 3.06 20.32 5.58 17.61 6.13 18.12 3.06 21.42 0 18.12"/>
+    </g>
+  </g>
+</svg>

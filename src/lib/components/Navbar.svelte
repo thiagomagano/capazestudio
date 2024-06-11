@@ -5,7 +5,7 @@
     <img src="/svg/Logo-nav-bar.svg" alt="Logo Capaz Studio" class="w-48" />
   </div>
 
-  <ul class="flex gap-6 uppercase items-center text-xl font-medium">
+  <ul class="flex gap-6 uppercase items-center text-xl font-normal">
     <li>Serviços</li>
     <li>Quem Somos</li>
     <li>Time</li>
