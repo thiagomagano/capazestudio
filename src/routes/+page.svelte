@@ -44,3 +44,9 @@
 <footer>
   <p>Capaz Studio ©️2024</p>
 </footer>
+
+<style lang="postcss">
+  :global(html) {
+    background-color: theme(colors.gray.100);
+  }
+</style>
