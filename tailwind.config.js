@@ -22,6 +22,11 @@ export default {
         950: "#262527",
       },
     },
+    fontFamily: {
+      display: ["Overused Grotesk"],
+      body: ['"Overused Grotesks"'],
+      long: ["Erode", "Erode Italic"],
+    },
     extend: {},
   },
   plugins: [],
