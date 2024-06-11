@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.83 19.83">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fe5f2d;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Design_PC" data-name="Design / PC">
+    <path class="cls-1" d="M19.83,0v11.27c-1.13,1.13-1.76,1.76-2.89,2.89h-2.77v-2.83h2.83V2.83H2.83v8.5h8.5v5.67h5.66v2.83H2.83v-2.83h5.67v-2.83H0V0h19.83Z"/>
+  </g>
+</svg>

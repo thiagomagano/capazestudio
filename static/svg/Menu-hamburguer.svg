@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.33 17.61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 1.65px;
+      }
+    </style>
+  </defs>
+  <g id="Nav_bar_Mobile" data-name="Nav bar / Mobile">
+    <g>
+      <line class="cls-1" y1=".82" x2="19.33" y2=".82"/>
+      <line class="cls-1" y1="8.81" x2="19.33" y2="8.81"/>
+      <line class="cls-1" y1="16.79" x2="19.33" y2="16.79"/>
+    </g>
+  </g>
+</svg>
