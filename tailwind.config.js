@@ -27,7 +27,30 @@ export default {
       body: ['"Overused Grotesks"'],
       long: ["Erode", "Erode Italic"],
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        typing: {
+          "0%": {
+            width: "0%",
+            visibility: "hidden",
+          },
+          "100%": {
+            width: "135%",
+          },
+        },
+        blink: {
+          "50%": {
+            borderColor: "transparent",
+          },
+          "100%": {
+            borderColor: "primary",
+          },
+        },
+      },
+      animation: {
+        typing: "typing 2s steps(20), blink .7s infinite",
+      },
+    },
   },
   plugins: [],
 };

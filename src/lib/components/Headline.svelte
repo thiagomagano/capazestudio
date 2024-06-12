@@ -1,11 +1,15 @@
 <script>
+  import TypeWriter from "./TypeWriter/TypeWriter.svelte";
 </script>
 
 <section
   id="top"
   class="bg-secondary text-black w-full grid place-items-center h-screen p-16 uppercase"
 >
-  <div id="headliner" class="grid grid-cols-8 grid-rows-3 w-full">
+  <div
+    id="headliner"
+    class="grid grid-cols-8 grid-rows-3 w-full justify-items-stretch"
+  >
     <div
       class="col-start-1 col-end-1 w-[75px] grid row-span-2 ml-auto mr-8 mt-12"
     >
@@ -68,10 +72,17 @@
       </h1>
     </div>
 
-    <div class="col-start-2 col-end-7 row-start-3 row-end-3 grid">
-      <h1 class="text-[14.5rem] font-medium uppercase tracking-wide">
+    <div
+      class="col-start-2 col-end-8 row-start-3 row-end-3 grid justify-items-stretch justify-self-end"
+    >
+      <!-- <h1 class=" text-[14.5rem] font-medium uppercase tracking-wide">
         Solucionar
-      </h1>
+      </h1> -->
+
+      <TypeWriter
+        texts={["Solucionar", "Conectar", "Cativar"]}
+        cl="text-[14.5rem] font-medium uppercase tracking-wide leading-[0.8] justify-self-end mr-[-80px]"
+      />
     </div>
     <div
       class="col-start-8 col-end-8 w-[75px] grid row-span-3 mr-auto ml-24 mt-12"
