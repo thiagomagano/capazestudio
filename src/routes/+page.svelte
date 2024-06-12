@@ -9,7 +9,7 @@
 <main>
   <Headline />
 
-  <section id="Servicos">
+  <section id="servicos" class="h-screen">
     <h2>Serviços</h2>
     <ul>
       <li>Publicidade</li>
@@ -18,7 +18,7 @@
     </ul>
   </section>
 
-  <section id="QuemSomos">
+  <section id="quemsomos" class="h-screen">
     <h2>Por Pessoas, para pessoas. somos capazes, juntos.</h2>
     <p>
       Somos especialistas em guiar caminhos. Nascemos no digital mas um caminho
@@ -26,7 +26,7 @@
     </p>
   </section>
 
-  <section id="Time">
+  <section id="time" class="h-screen">
     <h2>Nosso Time</h2>
     <ul>
       <li>Alessandra Carcuchinski</li>
@@ -36,7 +36,7 @@
     </ul>
   </section>
 
-  <section id="Contato">
+  <section id="contato" class="h-screen">
     <h2>Vamos Conversar</h2>
   </section>
 </main>

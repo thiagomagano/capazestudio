@@ -104,6 +104,7 @@
     animation: blink var(--blink-duration) step-start
       calc(var(--blink-duration) / 4) var(--blink-count);
     border-right: #fe5f2d 3px solid;
+    z-index: -154545;
   }
 
   @keyframes blink {
