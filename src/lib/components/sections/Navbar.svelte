@@ -1,5 +1,5 @@
 <script>
-  import scrollIntoView from "../utils/scrollIntoView";
+  import scrollIntoView from "../../utils/scrollIntoView";
 </script>
 
 <nav

@@ -1,6 +1,6 @@
 <script>
-  import scrollIntoView from "../utils/scrollIntoView";
-  import TypeWriter from "./TypeWriter/TypeWriter.svelte";
+  import scrollIntoView from "$lib/utils/scrollIntoView";
+  import TypeWriter from "$lib/components/TypeWriter/TypeWriter.svelte";
 </script>
 
 <section

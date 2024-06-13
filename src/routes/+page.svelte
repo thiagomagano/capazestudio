@@ -1,7 +1,10 @@
 <script>
-  import Headline from "../lib/components/Headline.svelte";
-
-  import Navbar from "../lib/components/Navbar.svelte";
+  import Navbar from "$lib/components/sections/Navbar.svelte";
+  import Headline from "$lib/components/sections/Headline.svelte";
+  import Servicos from "$lib/components/sections/Servicos.svelte";
+  import QuemSomos from "$lib/components/sections/QuemSomos.svelte";
+  import Time from "$lib/components/sections/Time.svelte";
+  import Contato from "$lib/components/sections/Contato.svelte";
 </script>
 
 <Navbar />
@@ -9,36 +12,13 @@
 <main>
   <Headline />
 
-  <section id="servicos" class="h-screen">
-    <h2>Serviços</h2>
-    <ul>
-      <li>Publicidade</li>
-      <li>Design</li>
-      <li>Desenvolvimento</li>
-    </ul>
-  </section>
+  <Servicos />
 
-  <section id="quemsomos" class="bg-white">
-    <h2>Por Pessoas, para pessoas. somos capazes, juntos.</h2>
-    <p>
-      Somos especialistas em guiar caminhos. Nascemos no digital mas um caminho
-      longo já foi trilhado..
-    </p>
-  </section>
+  <QuemSomos />
 
-  <section id="time" class="bg-primary">
-    <h2>Nosso Time</h2>
-    <ul>
-      <li>Alessandra Carcuchinski</li>
-      <li>Douglas Alff</li>
-      <li>Marco Machado</li>
-      <li>Thiago Magano</li>
-    </ul>
-  </section>
+  <Time />
 
-  <section id="contato" class="bg-black">
-    <h2>Vamos Conversar</h2>
-  </section>
+  <Contato />
 </main>
 
 <footer>
