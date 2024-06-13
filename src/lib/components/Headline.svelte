@@ -1,10 +1,11 @@
 <script>
+  import scrollIntoView from "../utils/scrollIntoView";
   import TypeWriter from "./TypeWriter/TypeWriter.svelte";
 </script>
 
 <section
   id="top"
-  class="bg-secondary text-black w-full grid place-items-center h-screen p-16 uppercase"
+  class="bg-secondary text-black w-full grid place-items-center min-h-[calc(100svh-70px)] p-16 uppercase"
 >
   <div
     id="headliner"
@@ -36,9 +37,11 @@
     </div>
 
     <div class="col-start-2 col-end-4 row-start-2 row-end-2 grid w-full">
-      <button
+      <a
+        href="#contato"
+        on:click|preventDefault={scrollIntoView}
         class="text-secondary bg-primary py-4 px-14 text-4xl w-full uppercase self-center"
-        >Fale com a Gente</button
+        >Fale com a Gente</a
       >
     </div>
 
@@ -75,10 +78,6 @@
     <div
       class="col-start-2 col-end-8 row-start-3 row-end-3 grid justify-items-stretch justify-self-end"
     >
-      <!-- <h1 class=" text-[14.5rem] font-medium uppercase tracking-wide">
-        Solucionar
-      </h1> -->
-
       <TypeWriter
         texts={["Solucionar", "Conectar", "Cativar"]}
         cl="text-[14.5rem] font-medium uppercase tracking-wide leading-[0.8] justify-self-end mr-[-80px]"
@@ -95,12 +94,19 @@
     </div>
   </div>
 
-  <div class="grid place-content-center w-full">
-    <img
-      src="/svg/Seta-head.svg"
-      alt="Seta apontando para baixo"
-      class="w-[35px] block"
-    />
+  <div class="flex justify-center items-center">
+    <a
+      href="#servicos"
+      on:click|preventDefault={scrollIntoView}
+      class="flex justify-center items-center"
+    >
+      <img
+        src="/svg/Seta-head.svg"
+        alt="Seta apontando para baixo"
+        class="w-[25px] animate-bounce"
+        href="#servicos"
+      />
+    </a>
   </div>
 </section>
 

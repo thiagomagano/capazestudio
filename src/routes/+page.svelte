@@ -18,7 +18,7 @@
     </ul>
   </section>
 
-  <section id="quemsomos" class="h-screen">
+  <section id="quemsomos" class="bg-white">
     <h2>Por Pessoas, para pessoas. somos capazes, juntos.</h2>
     <p>
       Somos especialistas em guiar caminhos. Nascemos no digital mas um caminho
@@ -26,7 +26,7 @@
     </p>
   </section>
 
-  <section id="time" class="h-screen">
+  <section id="time" class="bg-primary">
     <h2>Nosso Time</h2>
     <ul>
       <li>Alessandra Carcuchinski</li>
@@ -36,7 +36,7 @@
     </ul>
   </section>
 
-  <section id="contato" class="h-screen">
+  <section id="contato" class="bg-black">
     <h2>Vamos Conversar</h2>
   </section>
 </main>

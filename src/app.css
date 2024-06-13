@@ -30,3 +30,7 @@
 :root {
   font-family: "Overused Grotesk";
 }
+
+section {
+  min-height: 100svh;
+}
