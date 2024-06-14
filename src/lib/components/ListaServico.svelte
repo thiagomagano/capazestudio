@@ -21,7 +21,7 @@
       >
         <Accordion.Header>
           <Accordion.Trigger
-            class="flex w-full flex-1 items-center justify-between py-4  font-medium transition-all [&[data-state=open]>span>svg]:rotate-180 "
+            class="flex w-full flex-1 items-center justify-between py-4 transition-all [&[data-state=open]>span>svg]:rotate-180 "
           >
             {item}
             <span
@@ -39,7 +39,7 @@
         <Accordion.Content
           transition={slide}
           transitionConfig={{ duration: 200 }}
-          class="pb-[25px] text-sm tracking-[-0.01em]"
+          class="pb-[25px] text-base tracking-[-0.01em]"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
           temporibus amet. Sit maxime ea aspernatur odit aperiam nam labore
