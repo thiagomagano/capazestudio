@@ -23,7 +23,7 @@
           <Accordion.Trigger
             class="flex w-full flex-1 items-center justify-between py-4 transition-all [&[data-state=open]>span>svg]:rotate-180 "
           >
-            {item}
+            {item.titulo}
             <span
               class="inline-flex size-8 items-center justify-center rounded-[7px] bg-transparent transition-all hover:bg-dark-10"
             >
@@ -41,10 +41,7 @@
           transitionConfig={{ duration: 200 }}
           class="pb-[25px] text-base tracking-[-0.01em]"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-          temporibus amet. Sit maxime ea aspernatur odit aperiam nam labore
-          numquam voluptate earum animi in placeat, reprehenderit illo. Ex,
-          dolorum itaque?
+          {item.desc}
         </Accordion.Content>
       </Accordion.Item>
     {/each}

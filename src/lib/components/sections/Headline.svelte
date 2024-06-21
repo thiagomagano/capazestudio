@@ -56,7 +56,7 @@
           <h2>Design</h2>
         </li>
         <li>
-          <h2>& Dev</h2>
+          <h2>& Tecnologia</h2>
         </li>
       </ul>
     </div>
@@ -65,7 +65,7 @@
       class="col-start-3 col-span-4 row-start-1 row-end-1 grid w-full place-items-end pl-48"
     >
       <h1
-        class="text-[14.5rem] md:text-[11rem] font-medium uppercase tracking-wide"
+        class="xl:text-[14.5rem] lg:text-[11rem] font-medium uppercase tracking-wide"
       >
         Capazes
       </h1>
@@ -73,7 +73,7 @@
 
     <div class="col-start-7 col-end-7 row-start-2 row-end-2 grid">
       <h1
-        class="text-[14.5rem] md:text-[11rem] font-medium uppercase self-end tracking-wide"
+        class="xl:text-[14.5rem] lg:text-[11rem] font-medium uppercase self-end tracking-wide"
       >
         de
       </h1>
@@ -84,7 +84,7 @@
     >
       <TypeWriter
         texts={["Solucionar", "Conectar", "Cativar"]}
-        cl="text-[14.5rem] md:text-[11rem] font-medium uppercase tracking-wide leading-[0.8] justify-self-end mr-[-80px]"
+        cl="xl:text-[14.5rem] lg:text-[11rem] font-medium uppercase tracking-wide leading-[0.8] justify-self-end mr-[-80px]"
       />
     </div>
     <div
@@ -93,7 +93,7 @@
       <img
         src="/svg/Setas/PC_1.svg"
         alt="Seta Apontando para Solucionar"
-        class="w-full self-center"
+        class="w-full h-96 self-center"
       />
     </div>
   </div>
