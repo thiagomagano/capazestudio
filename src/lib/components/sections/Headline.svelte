@@ -5,7 +5,7 @@
 
 <section
   id="top"
-  class="bg-secondary text-black w-full grid place-items-center min-h-[calc(100svh-70px)] p-16 uppercase"
+  class="bg-secondary text-black w-full grid place-items-center min-h-[calc(100svh-70px)] p-16 uppercase max-w-[1920px]"
 >
   <div
     id="headliner"
@@ -64,13 +64,17 @@
     <div
       class="col-start-3 col-span-4 row-start-1 row-end-1 grid w-full place-items-end pl-48"
     >
-      <h1 class="text-[14.5rem] font-medium uppercase tracking-wide">
+      <h1
+        class="text-[14.5rem] md:text-[11rem] font-medium uppercase tracking-wide"
+      >
         Capazes
       </h1>
     </div>
 
     <div class="col-start-7 col-end-7 row-start-2 row-end-2 grid">
-      <h1 class="text-[14.5rem] font-medium uppercase self-end tracking-wide">
+      <h1
+        class="text-[14.5rem] md:text-[11rem] font-medium uppercase self-end tracking-wide"
+      >
         de
       </h1>
     </div>
@@ -80,7 +84,7 @@
     >
       <TypeWriter
         texts={["Solucionar", "Conectar", "Cativar"]}
-        cl="text-[14.5rem] font-medium uppercase tracking-wide leading-[0.8] justify-self-end mr-[-80px]"
+        cl="text-[14.5rem] md:text-[11rem] font-medium uppercase tracking-wide leading-[0.8] justify-self-end mr-[-80px]"
       />
     </div>
     <div
