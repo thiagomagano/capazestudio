@@ -54,28 +54,28 @@
           class="size-20"
         />
       </div>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit officiis
-        aspernatur voluptatum recusandae obcaecati cumque fugit sequi modi
-        atque? Quisquam nam similique illo aliquid rerum? Quae aspernatur
-        voluptas sapiente quia. Lorem ipsum dolor, sit amet consectetur
-        <br />
-        <br />
-        adipisicing elit. Sit officiis aspernatur voluptatum recusandae obcaecati
-        cumque fugit sequi modi atque? Quisquam nam similique illo aliquid rerum?
-        Quae aspernatur voluptas sapiente quia.
+      <p class="text-xl font-long leading-7 text-justify">
+        Somos capazes de guiar caminhos, através da competência, criatividade e
+        modernização. Respeitamos a singularidade de cada projeto, sempre
+        buscando transmitir a essência de nossos clientes. Damos um toque humano
+        à tecnologia, trazendo um jeitinho caloroso e simpático para o mundo
+        digital. Entregamos resultados concretos com transparência em nossas
+        interações. Olhamos para o futuro sem esquecer o presente, cientes de
+        que juntos, podemos enfrentar desafios e trilhar qualquer caminho que
+        desejarmos. <span class="font-semibold"
+          >Nosso lema é simples: somos capazes, juntos.</span
+        >
       </p>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore velit
-        beatae voluptates mollitia quas ipsum vero, laboriosam iste qui magni
-        blanditiis ea architecto dolores expedita hic magnam nobis impedit Lorem
-        ipsum dolor, sit amet consectetur adipisicing elit. Sit officiis
-        aspernatur voluptatum recusandae obcaecati cumque fugit sequi modi
-        atque? Quisquam nam similique illo aliquid rerum? Quae aspernatur
-        voluptas sapiente quia. Lorem ipsum dolor, sit amet consectetur
-        adipisicing elit. Sit officiis aspernatur voluptatum recusandae
-        obcaecati cumque fugit sequi modi atque? Quisquam nam similique illo
-        aliquid rerum? Quae aspernatur voluptas sapiente quia. similique.7
+      <p class="text-xl font-long leading-7 text-justify">
+        Desenvolvemos soluções criativas para cocriar com empresas e lançar seus
+        produtos e serviços de forma segura no mercado. Construir parcerias
+        sólidas e duradouras é o nosso legado. Orientaremos nossos clientes de
+        maneira criativa, inovadora e personalizada através da performance
+        adequada para cada situação. Ser Capaz é trazer emoção, criatividade e
+        integridade para o público-alvo através dos nossos projetos,
+        manifestando propósitos através de estratégia, visual e tecnologia.
+        Assim nos comprometemos a gerar o melhor resultado para os nossos
+        clientes.
       </p>
     </div>
   </div>
