@@ -42,19 +42,23 @@
         </div>
       </div>
     </div>
-    <div class="grid grid-cols-4 pb-20 px-8 gap-8">
-      <div class="flex gap-8 flex-col">
-        <h2 class="font-semibold text-3xl uppercase">Manifesto</h2>
-        <img src="svg/icon-manifesto" alt="Icone de Manifesto" />
-      </div>
-      <div>
+    <div class="grid grid-cols-8 px-8 gap-8 pb-4">
+      <div class="flex flex-col gap-y-28">
+        <h2 class="font-semibold text-4xl uppercase">Manifesto</h2>
         <img
-          src="/svg/Telefone.svg"
-          alt="Seta apontando para direita"
-          class="size-20"
+          src="svg/manifesto_icon.svg"
+          alt="Icone de Manifesto"
+          class="size-10"
         />
       </div>
-      <p class="text-xl font-long leading-7 text-justify">
+      <div class="flex flex-col col-span-3 pt-2 px-8">
+        <img
+          src="/svg/manifesto_seta.svg"
+          alt="Seta apontando para direita"
+          class="w-full h-auto"
+        />
+      </div>
+      <p class="text-xl font-long leading-7 text-justify col-span-2">
         Somos capazes de guiar caminhos, através da competência, criatividade e
         modernização. Respeitamos a singularidade de cada projeto, sempre
         buscando transmitir a essência de nossos clientes. Damos um toque humano
@@ -66,7 +70,7 @@
           >Nosso lema é simples: somos capazes, juntos.</span
         >
       </p>
-      <p class="text-xl font-long leading-7 text-justify">
+      <p class="text-xl font-long leading-7 text-justify col-span-2">
         Desenvolvemos soluções criativas para cocriar com empresas e lançar seus
         produtos e serviços de forma segura no mercado. Construir parcerias
         sólidas e duradouras é o nosso legado. Orientaremos nossos clientes de

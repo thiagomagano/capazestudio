@@ -54,7 +54,7 @@
   <div class="flex gap-8 flex-col">
     <h2 class="text-5xl font-medium uppercase pb-16">Serviços</h2>
     <img src="/svg/Servicos.svg" alt="Icone de serviços" class="size-10" />
-    <p class="text-2xl">
+    <p class="text-2xl font-long">
       Guiamos nossos clientes em todos os caminhos necessários relacionados a
       uma marca. Seja relacionado a parte estratégica, visual ou tecnológica.
     </p>

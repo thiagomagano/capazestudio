@@ -4,6 +4,19 @@ export default {
   theme: {
     colors: {
       primary: "#fe5f2d",
+      "capaz-orange": {
+        50: "#fff3ed",
+        100: "#ffe4d4",
+        200: "#ffc5a9",
+        300: "#ff9c72",
+        400: "#fe5f2d",
+        500: "#fd4012",
+        600: "#ee2608",
+        700: "#c51809",
+        800: "#9c1510",
+        900: "#7e1510",
+        950: "#440606",
+      },
       secondary: "#f7f4e0",
       transparent: "transparent",
       black: "#000000",

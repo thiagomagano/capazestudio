@@ -11,7 +11,7 @@
 
   <ul class="flex gap-6 uppercase items-center text-xl font-normal">
     <li>
-      <a href="#servicos" on:click|preventDefault={scrollIntoView}>Serviço </a>
+      <a href="#servicos" on:click|preventDefault={scrollIntoView}>Serviços</a>
     </li>
     <li>
       <a href="#quemsomos" on:click|preventDefault={scrollIntoView}>
