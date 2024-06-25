@@ -42,7 +42,7 @@
         </div>
       </div>
     </div>
-    <div class="grid grid-cols-8 px-8 gap-8 pb-4">
+    <div class="grid grid-cols-8 px-8 gap-8 pb-16">
       <div class="flex flex-col gap-y-28">
         <h2 class="font-semibold text-4xl uppercase">Manifesto</h2>
         <img
@@ -66,8 +66,8 @@
         digital. Entregamos resultados concretos com transparência em nossas
         interações. Olhamos para o futuro sem esquecer o presente, cientes de
         que juntos, podemos enfrentar desafios e trilhar qualquer caminho que
-        desejarmos. <span class="font-semibold"
-          >Nosso lema é simples: somos capazes, juntos.</span
+        desejarmos. Nosso lema é simples: <span class="font-semibold"
+          >Somos capazes, juntos.</span
         >
       </p>
       <p class="text-xl font-long leading-7 text-justify col-span-2">

@@ -39,7 +39,7 @@
         <Accordion.Content
           transition={slide}
           transitionConfig={{ duration: 200 }}
-          class="pb-[25px] text-base tracking-[-0.01em] font-long"
+          class="pb-[25px] text-xl tracking-[-0.01em] font-long"
         >
           {item.desc}
         </Accordion.Content>

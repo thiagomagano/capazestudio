@@ -83,7 +83,7 @@
       class="col-start-2 col-end-8 row-start-3 row-end-3 grid justify-items-stretch justify-self-end"
     >
       <TypeWriter
-        texts={["Solucionar", "Conectar", "Cativar"]}
+        texts={["Solucionar", "Humanizar", "Cativar", "Conectar", "Engajar"]}
         cl="xl:text-[14.5rem] lg:text-[11rem] font-medium uppercase tracking-wide leading-[0.8] justify-self-end mr-[-80px]"
       />
     </div>

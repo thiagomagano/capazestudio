@@ -12,7 +12,7 @@
     },
     {
       titulo: "Presença Online",
-      desc: "Orientamos o seu negócio para se destacar nas redes sociais, essa presença possibilita se posicionar de forma clara e objetiva diante do seu público-alvo, gerando impacto, visibilidade e autoridade, além de expor todas as características essenciais da sua marca.",
+      desc: "Orientamos o seu negócio para se destacar nas mídias sociais, essa presença possibilita se posicionar de forma clara e objetiva diante do seu público-alvo, gerando impacto, visibilidade e autoridade, além de expor todas as características essenciais da sua marca.",
     },
   ];
 
@@ -22,27 +22,27 @@
       desc: "Na apresentação de uma marca são imprescindíveis os itens principais de uma identidade visual, como logotipo, paleta de cores, grafismos, tipografia, peças ambientadas e um manual de uso.",
     },
     {
-      titulo: "Materiais gráficos",
-      desc: "Sendo os representantes tangíveis de uma marca, os materiais gráficos tem a vantagem de carregar todos os elementos de uma identidade visual e comunicar toda a mensagem necessária, como as embalagens, catálogos, cartões de visita, outdoors e outros.",
+      titulo: "Materiais Gráficos",
+      desc: "Sendo os representantes tangíveis de uma marca, os materiais gráficos têm a vantagem de carregar todos os elementos de uma identidade visual e comunicar toda a mensagem necessária, como as embalagens, catálogos, cartões de visita, outdoors e outros.",
     },
     {
       titulo: "Campanhas",
-      desc: "Criamos campanhas tanto offline quanto online, sempre buscando inovar e conectar marcas aos seus públicos de forma envolvente. No offline, utilizamos estratégias tradicionais como eventos, outdoors e panfletagem, combinando com ações criativas que despertam a curiosidade e o interesse das pessoas. Já no online, utilizamos o marketing digital, redes sociais, e-commerce e conteúdos relevantes para sua empresa, tudo planejado para aumentar o alcance.",
+      desc: "Criamos campanhas tanto offline quanto online, sempre buscando conectar marcas aos seus públicos de forma envolvente. No offline, utilizamos estratégias tradicionais como eventos, outdoors e panfletagem, combinando com ações criativas que despertam a curiosidade e o interesse das pessoas. Já no online, utilizamos o marketing digital, mídias sociais, e-commerces e conteúdos relevantes para sua empresa, tudo planejado para aumentar o alcance da marca.",
     },
   ];
 
   const tecnologia = [
     {
       titulo: "Sites",
-      desc: "Sabemos que a porta de entrada da sua empresa é o seu site/ landing pages, aqui cuidamos para ser um lugar de confiança e credibilidade, com suas informações atualizadas para que seus clientes encontrem exatamente o que precisam na sua página, também auxiliamos na aquisição do seu domínio e em tudo que você necessita para essa presença online.",
+      desc: "Sabemos que a porta de entrada da sua empresa é o seu site/landing page, aqui cuidamos para que elas sejam um lugar de confiança e credibilidade, com suas informações atualizadas em que seus clientes encontram exatamente o que precisam, também auxiliamos na aquisição do seu domínio e em tudo que você necessita para essa presença online.",
     },
     {
       titulo: "E-commerce",
-      desc: "Considerando a experiência para a empresa, desenvolvemos e implementamos seu e-commerces de forma personalizada e adaptável à sua realidade, visando impulsionar as suas vendas através da criação da sua loja online e facilitando a vida do seu consumidor.",
+      desc: "Considerando a experiência para a empresa, desenvolvemos e implementamos e-commerces de forma personalizada e adaptável à sua realidade, visando impulsionar as suas vendas através da criação da sua loja online e facilitando a vida do seu consumidor.",
     },
     {
       titulo: "Sitemas",
-      desc: "Temos a visão que uma empresa ter uma boa organização, é necessário sair do analógico e vir para o digital, aqui conseguimos criar sistema de controle, sistemas web com a melhor tecnologia do mercado utilizando cloud e sistemas que se adequam a sua realidade, sua empresa sem organização acaba perdendo grande parte da sua agilidade.",
+      desc: "Temos a visão que para uma empresa ter uma boa organização, é necessário sair do analógico e migrar para o digital, aqui criamos sistemas de controle, sistemas web com as tecnologias mais atuais do mercado.",
     },
   ];
 </script>
