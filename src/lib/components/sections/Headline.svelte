@@ -5,39 +5,40 @@
 
 <section
   id="hero"
-  class="bg-secondary text-black w-full flex flex-col uppercase min-h-[90svh] relative"
+  class="bg-secondary text-black w-full flex flex-col uppercase min-h-[90svh] lg:py-0 py-20 px-4"
 >
   <div
     id="headliner"
-    class="flex flex-col justify-center items-center lg:grid lg:grid-cols-4 lg:grid-rows-3 container mx-auto relative px-20 py-20"
+    class="container mx-auto my-auto grid grid-cols-3 place-items-end lg:grid lg:grid-cols-4 lg:grid-rows-3 relative lg:px-20 lg:py-20"
   >
     <div
-      class="col-start-1 row-start-1 text-gray-500 xl:text-2xl lg:text-xl xl:leading-none font-medium mr-auto"
+      class="hidden lg:flex flex-col col-start-1 row-start-1 text-gray-500 xl:text-2xl lg:text-xl xl:leading-none font-medium mr-auto"
     >
-      <ul class="">
-        <li>
-          <h2>Criatividade</h2>
-        </li>
-        <li>
-          <h2>com</h2>
-        </li>
-        <li>
-          <h2>Propósito</h2>
-        </li>
-      </ul>
+      <h2>Criatividade</h2>
+      <h2>com</h2>
+      <h2>Propósito</h2>
     </div>
 
-    <div class="invisible lg:visible row-start-2 col-span-2 pt-4">
+    <div
+      class="flex flex-col justify-center text-nowrap col-start-1 row-start-1 text-[0.65rem] sm:text-xl text-gray-500 lg:hidden xl:text-2xl lg:text-xl xl:leading-none font-medium mr-auto"
+    >
+      <h2>Criatividade</h2>
+      <h2>Com Propósito</h2>
+    </div>
+
+    <div
+      class="flex items-center justify-center row-start-4 col-start-1 col-span-4 w-full lg:row-start-2 lg:col-span-2 pt-4 text-nowrap"
+    >
       <a
         href="#contato"
         on:click|preventDefault={scrollIntoView}
-        class="  text-secondary bg-primary py-5 px-20 uppercase xl:text-3xl lg:text-2xl hover:bg-black hover:no-underline"
+        class="block text-center w-full text-secondary bg-primary py-2 uppercase text-xl font-normal sm:text-2xl md:text-4xl lg:text-2xl hover:bg-black hover:no-underline mt-10"
         >Fale com a gente
       </a>
     </div>
 
     <div
-      class="col-start-3 row-start-2 row-end-2 text-gray-500 xl:text-2xl lg:text-xl xl:leading-none font-medium"
+      class="hidden lg:col-start-3 lg:row-start-2 lg:row-end-2 text-gray-500 xl:text-2xl lg:text-xl xl:leading-none font-medium"
     >
       <ul class="">
         <li>
@@ -53,7 +54,7 @@
     </div>
 
     <h1 class="row-start-1 col-start-2 col-span-3">Capazes</h1>
-    <h1 class="row-start-2 col-span-2 col-start-4">de</h1>
+    <h1 class="row-start-2 lg:col-span-2 col-start-4 relative">de</h1>
     <h1 class="row-start-3 col-span-4">Solucionar</h1>
 
     <!-- <TypeWriter
@@ -80,18 +81,29 @@
         class="w-full self-center"
       />
     </div>
+
+    <div
+      class="absolute flex size-40 sm:size-44 md:size-64 -top-[30%] left-0 lg:hidden"
+    >
+      <img
+        src="/svg/Setas/mobile.svg"
+        alt="Seta Apontando para Solucionar"
+        class="w-full"
+      />
+    </div>
+
+    <div
+      class="row-start-2 col-start-4 absolute size-16 right-20 top-8 sm:size-36 sm:right-44 sm:top-14 lg:hidden"
+    >
+      <img
+        src="/svg/Setas/mobile_1.svg"
+        alt="Seta apontando para solucionar mobile"
+        class="w-full"
+      />
+    </div>
   </div>
 
-  <div class="visible lg:hidden flex justify-center items-center">
-    <a
-      href="#contato"
-      on:click|preventDefault={scrollIntoView}
-      class="  text-secondary bg-primary py-5 px-10 uppercase lg:text-2xl xl:text-3xl"
-      >Fale com a gente
-    </a>
-  </div>
-
-  <div class="flex justify-center items-center">
+  <div class="flex justify-center items-center lg:mt-20">
     <a
       href="#servicos"
       on:click|preventDefault={scrollIntoView}
@@ -109,6 +121,6 @@
 
 <style lang="postcss">
   h1 {
-    @apply text-right text-[7rem] font-medium uppercase leading-[0.9] tracking-normal md:text-[9rem] lg:text-[9.5rem] xl:text-[12.5rem] 2xl:text-[15rem];
+    @apply text-right text-[3.90rem] font-medium uppercase leading-[0.9] tracking-normal sm:text-[7rem] md:text-[8.5rem] lg:text-[9.5rem] xl:text-[12.5rem] 2xl:text-[15rem];
   }
 </style>
