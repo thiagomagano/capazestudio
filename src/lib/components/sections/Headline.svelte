@@ -4,24 +4,15 @@
 </script>
 
 <section
-  id="top"
-  class="bg-secondary text-black w-full grid place-items-center min-h-[calc(100svh-70px)] p-16 uppercase max-w-[1920px]"
+  id="hero"
+  class="bg-secondary text-black w-full flex flex-col uppercase gap-y-20 min-h-[90svh] relative"
 >
   <div
     id="headliner"
-    class="grid grid-cols-8 grid-rows-3 w-full justify-items-stretch"
+    class="flex flex-col justify-center items-center lg:grid lg:grid-cols-4 lg:grid-rows-3 container mx-auto relative justify-items-stretch"
   >
     <div
-      class="col-start-1 col-end-1 w-[75px] grid row-span-2 ml-auto mr-8 mt-12"
-    >
-      <img
-        src="/svg/Setas/PC.svg"
-        alt="Seta Apontando para botão"
-        class="w-full self-center"
-      />
-    </div>
-    <div
-      class="col-start-2 col-end-2 row-start-1 row-end-1 grid text-wrap text-gray-500 text-2xl font-medium leading-7"
+      class="col-start-1 row-start-1 text-gray-500 xl:text-3xl lg:text-2xl leading-7 ml-auto my-auto"
     >
       <ul class="self-center">
         <li>
@@ -36,19 +27,21 @@
       </ul>
     </div>
 
-    <div class="col-start-2 col-end-4 row-start-2 row-end-2 grid w-full">
+    <div
+      class="invisible lg:visible col-span-2 row-start-2 flex justify-center items-center"
+    >
       <a
         href="#contato"
         on:click|preventDefault={scrollIntoView}
-        class="text-secondary bg-primary py-4 px-14 text-4xl w-full uppercase self-center"
-        >Fale com a Gente</a
-      >
+        class="  text-secondary bg-primary py-5 px-10 uppercase xl:text-4xl lg:text-3xl hover:bg-black hover:no-underline"
+        >Fale com a gente
+      </a>
     </div>
 
     <div
-      class="col-start-5 col-end-5 row-start-2 row-end-2 text-gray-500 text-2xl bold leading-7 grid font-medium"
+      class="row-start-2 row-end-2 text-gray-500 xl:text-3xl lg:text-2xl bold leading-7 grid"
     >
-      <ul class="self-center">
+      <ul class="m-auto">
         <li>
           <h2 class="">Publicidade,</h2>
         </li>
@@ -61,41 +54,43 @@
       </ul>
     </div>
 
-    <div
-      class="col-start-3 col-span-4 row-start-1 row-end-1 grid w-full place-items-end pl-48"
-    >
-      <h1
-        class="xl:text-[14.5rem] lg:text-[11rem] font-medium uppercase tracking-wide"
-      >
-        Capazes
-      </h1>
-    </div>
+    <h1 class="row-start-1 col-span-3">Capazes</h1>
+    <h1 class="row-start-2">de</h1>
+    <h1 class="row-start-3 col-span-4">Solucionar</h1>
 
-    <div class="col-start-7 col-end-7 row-start-2 row-end-2 grid">
-      <h1
-        class="xl:text-[14.5rem] lg:text-[11rem] font-medium uppercase self-end tracking-wide"
-      >
-        de
-      </h1>
-    </div>
-
-    <div
-      class="col-start-2 col-end-8 row-start-3 row-end-3 grid justify-items-stretch justify-self-end"
-    >
-      <TypeWriter
+    <!-- <TypeWriter
         texts={["Solucionar", "Humanizar", "Cativar", "Conectar", "Engajar"]}
-        cl="xl:text-[14.5rem] lg:text-[11rem] font-medium uppercase tracking-wide leading-[0.8] justify-self-end mr-[-80px]"
+        cl="font-medium uppercase tracking-wide leading-[0.8] md:text-[6.5rem] lg:text-[8.5rem] xl:text-[12.2rem] 2xl:text-[13rem]"
+      /> -->
+
+    <div
+      class="invisible size-12 lg:absolute lg:visible top-[24%] left-[4%] lg:size-11 xl:size-16 2xl:size-20"
+    >
+      <img
+        src="/svg/Setas/PC.svg"
+        alt="Seta Apontando para botão"
+        class="w-full"
       />
     </div>
+
     <div
-      class="col-start-8 col-end-8 w-[75px] grid row-span-3 mr-auto ml-24 mt-12"
+      class="invisible size-12 top-[20%] -right-[6%] lg:absolute lg:visible xl:size-14 2xl:size-20"
     >
       <img
         src="/svg/Setas/PC_1.svg"
         alt="Seta Apontando para Solucionar"
-        class="w-full h-96 self-center"
+        class="w-full self-center"
       />
     </div>
+  </div>
+
+  <div class="visible lg:hidden flex justify-center items-center">
+    <a
+      href="#contato"
+      on:click|preventDefault={scrollIntoView}
+      class="  text-secondary bg-primary py-5 px-10 uppercase xl:text-4xl lg:text-3xl"
+      >Fale com a gente
+    </a>
   </div>
 
   <div class="flex justify-center items-center">
@@ -114,8 +109,8 @@
   </div>
 </section>
 
-<style>
+<style lang="postcss">
   h1 {
-    line-height: 0.9;
+    @apply text-right text-[7rem] font-medium uppercase leading-[0.9] tracking-wide md:text-[9rem] lg:text-[10.5rem] xl:text-[13rem] 2xl:text-[15rem];
   }
 </style>
