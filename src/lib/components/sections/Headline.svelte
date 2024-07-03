@@ -5,16 +5,16 @@
 
 <section
   id="hero"
-  class="bg-secondary text-black w-full flex flex-col uppercase gap-y-20 min-h-[90svh] relative"
+  class="bg-secondary text-black w-full flex flex-col uppercase min-h-[90svh] relative"
 >
   <div
     id="headliner"
-    class="flex flex-col justify-center items-center lg:grid lg:grid-cols-4 lg:grid-rows-3 container mx-auto relative justify-items-stretch"
+    class="flex flex-col justify-center items-center lg:grid lg:grid-cols-4 lg:grid-rows-3 container mx-auto relative px-20 py-20"
   >
     <div
-      class="col-start-1 row-start-1 text-gray-500 xl:text-3xl lg:text-2xl leading-7 ml-auto my-auto"
+      class="col-start-1 row-start-1 text-gray-500 xl:text-2xl lg:text-xl xl:leading-none font-medium mr-auto"
     >
-      <ul class="self-center">
+      <ul class="">
         <li>
           <h2>Criatividade</h2>
         </li>
@@ -27,21 +27,19 @@
       </ul>
     </div>
 
-    <div
-      class="invisible lg:visible col-span-2 row-start-2 flex justify-center items-center"
-    >
+    <div class="invisible lg:visible row-start-2 col-span-2 pt-4">
       <a
         href="#contato"
         on:click|preventDefault={scrollIntoView}
-        class="  text-secondary bg-primary py-5 px-10 uppercase xl:text-4xl lg:text-3xl hover:bg-black hover:no-underline"
+        class="  text-secondary bg-primary py-5 px-20 uppercase xl:text-3xl lg:text-2xl hover:bg-black hover:no-underline"
         >Fale com a gente
       </a>
     </div>
 
     <div
-      class="row-start-2 row-end-2 text-gray-500 xl:text-3xl lg:text-2xl bold leading-7 grid"
+      class="col-start-3 row-start-2 row-end-2 text-gray-500 xl:text-2xl lg:text-xl xl:leading-none font-medium"
     >
-      <ul class="m-auto">
+      <ul class="">
         <li>
           <h2 class="">Publicidade,</h2>
         </li>
@@ -54,8 +52,8 @@
       </ul>
     </div>
 
-    <h1 class="row-start-1 col-span-3">Capazes</h1>
-    <h1 class="row-start-2">de</h1>
+    <h1 class="row-start-1 col-start-2 col-span-3">Capazes</h1>
+    <h1 class="row-start-2 col-span-2 col-start-4">de</h1>
     <h1 class="row-start-3 col-span-4">Solucionar</h1>
 
     <!-- <TypeWriter
@@ -64,7 +62,7 @@
       /> -->
 
     <div
-      class="invisible size-12 lg:absolute lg:visible top-[24%] left-[4%] lg:size-11 xl:size-16 2xl:size-20"
+      class="invisible size-16 lg:absolute lg:visible lg:size-[3rem] lg:top-[31%] lg:left-[1%] xl:size-[4.5rem] xl:-left-[2%] xl:top-[27.5%] 2xl:size-[5.5rem]"
     >
       <img
         src="/svg/Setas/PC.svg"
@@ -74,7 +72,7 @@
     </div>
 
     <div
-      class="invisible size-12 top-[20%] -right-[6%] lg:absolute lg:visible xl:size-14 2xl:size-20"
+      class="invisible size-12 lg:absolute lg:visible lg:size-13 lg:top-[28%] lg:right-[1%] xl:size-16 xl:top-[25%] xl:-right-[1%] 2xl:size-20 2xl:top-[23%] 2xl:-right-[1%]"
     >
       <img
         src="/svg/Setas/PC_1.svg"
@@ -88,7 +86,7 @@
     <a
       href="#contato"
       on:click|preventDefault={scrollIntoView}
-      class="  text-secondary bg-primary py-5 px-10 uppercase xl:text-4xl lg:text-3xl"
+      class="  text-secondary bg-primary py-5 px-10 uppercase lg:text-2xl xl:text-3xl"
       >Fale com a gente
     </a>
   </div>
@@ -111,6 +109,6 @@
 
 <style lang="postcss">
   h1 {
-    @apply text-right text-[7rem] font-medium uppercase leading-[0.9] tracking-wide md:text-[9rem] lg:text-[10.5rem] xl:text-[13rem] 2xl:text-[15rem];
+    @apply text-right text-[7rem] font-medium uppercase leading-[0.9] tracking-normal md:text-[9rem] lg:text-[9.5rem] xl:text-[12.5rem] 2xl:text-[15rem];
   }
 </style>
