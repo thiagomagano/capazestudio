@@ -36,12 +36,12 @@
 <section id="time" class="bg-black text-secondary">
   <div class="container mx-auto py-32 px-4 flex flex-col gap-y-20 flex-wrap">
     <div class="flex items-center justify-between w-full flex-wrap">
-      <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-12">
         <h2 class="text-4xl font-medium uppercase text-nowrap">Nosso Time</h2>
         <img src="svg/Time.svg" alt="Icone do Time" class="size-10" />
       </div>
 
-      <p class="text-xl font-long max-w-lg">
+      <p class="text-xl font-long max-w-md">
         Somos a união de quatro grandes núcleos, comercial, estratégico,
         criativo e tecnológico, temos um olhar analítico e trazemos grandes
         experiências adquiridas com o tempo.

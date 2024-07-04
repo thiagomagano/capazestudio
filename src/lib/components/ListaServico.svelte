@@ -21,16 +21,15 @@
       >
         <Accordion.Header>
           <Accordion.Trigger
-            class="flex w-full flex-1 items-center justify-between py-4 transition-all [&[data-state=open]>span>img]:rotate-180 "
+            class="flex w-full flex-1 items-center justify-between py-4 transition-all [&[data-state=open]>span>img]:rotate-180 [&[data-state=open]>span>img]:animate-none  "
           >
             {item.titulo}
             <span
               class="inline-flex size-8 items-center justify-center rounded-[7px] bg-transparent transition-all hover:bg-dark-10"
             >
-              <!-- <CaretDown class="size-[18px] transition-all duration-200" /> -->
               <img
-                src="/svg/INFOS-mais.svg"
-                class="size-4 transition-all duration-200"
+                src="/svg/carretdown.svg"
+                class="size-4 transition-all duration-200 fill-white animate-pulse"
                 alt="Icone de Mais"
               />
             </span>

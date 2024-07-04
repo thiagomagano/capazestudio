@@ -42,7 +42,7 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-8 gap-8 pt-16">
+    <div class="grid grid-cols-1 lg:flex gap-10 pt-16">
       <!-- ----------------- -->
       <div class="flex flex-col lg:gap-y-28 gap-y-4 gap-x-4">
         <h2 class="font-semibold text-2xl lg:text-4xl uppercase">Manifesto</h2>
@@ -52,15 +52,15 @@
           class="size-10"
         />
       </div>
-
-      <div class="hidden lg:flex flex-col col-span-3 pt-2 gap-4">
+      <div class="hidden lg:flex flex-col pt-2 w-[28%] shrink-0 gap-4">
         <img
           src="/svg/manifesto_seta.svg"
           alt="Seta apontando para direita"
-          class="w-full h-auto"
+          class="w-full h-auto fill-capaz-orange-100"
         />
       </div>
-      <p class="text-xl font-long leading-7 col-span-2">
+
+      <p class="text-xl font-long leading-7 max-w-lg text-justify">
         Somos capazes de guiar caminhos, através da competência, criatividade e
         modernização. Respeitamos a singularidade de cada projeto, sempre
         buscando transmitir a essência de nossos clientes. Damos um toque humano
@@ -73,7 +73,9 @@
         >
       </p>
 
-      <p class="hidden lg:block text-xl font-long leading-7 col-span-2">
+      <p
+        class="hidden lg:block text-xl font-long leading-7 max-w-lg text-justify"
+      >
         Desenvolvemos soluções criativas para cocriar com empresas e lançar seus
         produtos e serviços de forma segura no mercado. Construir parcerias
         sólidas e duradouras é o nosso legado. Orientaremos nossos clientes de
