@@ -33,38 +33,45 @@
 
   const tecnologia = [
     {
-      titulo: "Sites",
-      desc: "Sabemos que a porta de entrada da sua empresa é o seu site/landing page, aqui cuidamos para que elas sejam um lugar de confiança e credibilidade, com suas informações atualizadas em que seus clientes encontram exatamente o que precisam, também auxiliamos na aquisição do seu domínio e em tudo que você necessita para essa presença online.",
+      titulo: "Landing Page",
+      desc: "Landing pages são a ferramenta ideal para apresentar um produto ou serviço específico, com foco em conversão. Através de um design estratégico e conteúdo persuasivo, elas capturam a atenção do visitante e o guiam em direção à ação desejada, seja uma compra, um cadastro ou um contato.",
+    },
+    {
+      titulo: "Site Multipáginas",
+      desc: "Um site multipágina/institucional é a solução completa para apresentar sua empresa online. Com ele, você comunica sua história, valores e serviços de forma clara e organizada, conquistando a confiança do seu público e gerando mais oportunidades de negócio.",
     },
     {
       titulo: "E-commerce",
-      desc: "Considerando a experiência para a empresa, desenvolvemos e implementamos e-commerces de forma personalizada e adaptável à sua realidade, visando impulsionar as suas vendas através da criação da sua loja online e facilitando a vida do seu consumidor.",
-    },
-    {
-      titulo: "Sitemas",
-      desc: "Temos a visão que para uma empresa ter uma boa organização, é necessário sair do analógico e migrar para o digital, aqui criamos sistemas de controle, sistemas web com as tecnologias mais atuais do mercado.",
+      desc: "Pequenos e-commerces são a porta de entrada para o mundo das vendas online. Com eles, você alcança novos clientes, aumenta sua visibilidade e impulsiona seus resultados, sem a necessidade de grandes investimentos. Através de uma plataforma intuitiva e recursos personalizados, você cria uma loja virtual completa, pronta para vender seus produtos e conquistar o mercado digital.",
     },
   ];
 </script>
 
-<section
-  id="servicos"
-  class="bg-black text-white grid grid-cols-4 place-items-center px-12 py-36 gap-8 min-h-[calc(80svh)]"
->
-  <div class="flex gap-8 flex-col">
-    <h2 class="text-5xl font-medium uppercase pb-16">Serviços</h2>
-    <img src="/svg/Servicos.svg" alt="Icone de serviços" class="size-10" />
-    <p class="text-2xl font-long">
-      Guiamos nossos clientes em todos os caminhos necessários relacionados a
-      uma marca. Seja relacionado a parte estratégica, visual ou tecnológica.
-    </p>
-  </div>
+<section id="servicos" class="bg-black text-white">
+  <div
+    class="grid grid-cols-1 px-5 py-8 lg:grid-cols-4 lg:px-12 lg:py-36 gap-8"
+  >
+    <div class="flex gap-8 flex-col">
+      <h2 class="font-medium uppercase text-3xl lg:text-5xl lg:pb-16">
+        Serviços
+      </h2>
+      <img src="/svg/Servicos.svg" alt="Icone de serviços" class="size-10" />
+      <p class="text-lg lg:text-2xl font-long">
+        Guiamos nossos clientes em todos os caminhos necessários relacionados a
+        uma marca. Seja relacionado a parte estratégica, visual ou tecnológica.
+      </p>
+    </div>
 
-  <ListaServico
-    titulo="Publicade"
-    iconUrl="/svg/publi-icon.svg"
-    itens={publicidade}
-  />
-  <ListaServico titulo="Design" iconUrl="/svg/Design.svg" itens={design} />
-  <ListaServico titulo="Tecnologia" iconUrl="/svg/Dev.svg" itens={tecnologia} />
+    <ListaServico
+      titulo="Publicade"
+      iconUrl="/svg/publi-icon.svg"
+      itens={publicidade}
+    />
+    <ListaServico titulo="Design" iconUrl="/svg/Design.svg" itens={design} />
+    <ListaServico
+      titulo="Tecnologia"
+      iconUrl="/svg/Dev.svg"
+      itens={tecnologia}
+    />
+  </div>
 </section>

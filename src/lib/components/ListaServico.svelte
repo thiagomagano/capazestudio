@@ -9,7 +9,7 @@
   <div
     class="flex justify-between items-center px-3 pb-8 border-b-[3px] border-gray-500"
   >
-    <h3 class="text-4xl font-normal uppercase">{titulo}</h3>
+    <h3 class="text-2xl lg:text-4xl font-medium uppercase">{titulo}</h3>
     <img src={iconUrl} alt="Icone da {titulo}" class="w-6" />
   </div>
 
@@ -17,11 +17,11 @@
     {#each itens as item, i}
       <Accordion.Item
         value="${i}"
-        class="group border-b-[3px] border-gray-500 px-3 text-2xl"
+        class="group border-b-[3px] border-gray-500 px-3 text-xl lg:text-2xl"
       >
         <Accordion.Header>
           <Accordion.Trigger
-            class="flex w-full flex-1 items-center justify-between py-4 transition-all [&[data-state=open]>span>svg]:rotate-180 "
+            class="flex w-full flex-1 items-center justify-between py-4 transition-all [&[data-state=open]>span>img]:rotate-180 "
           >
             {item.titulo}
             <span
@@ -39,7 +39,7 @@
         <Accordion.Content
           transition={slide}
           transitionConfig={{ duration: 200 }}
-          class="pb-[25px] text-xl tracking-[-0.01em] font-long"
+          class="pb-[25px] text-base lg:text-xl tracking-[-0.01em] font-long"
         >
           {item.desc}
         </Accordion.Content>
