@@ -47,9 +47,9 @@
   ];
 </script>
 
-<section id="servicos" class="bg-black text-white">
+<section id="servicos" class="bg-black text-white w-full flex justify-center">
   <div
-    class="grid grid-cols-1 px-5 py-8 lg:grid-cols-4 lg:px-12 lg:py-36 gap-8"
+    class="grid grid-cols-1 px-5 py-8 lg:grid-cols-4 lg:py-36 gap-8 container mx-auto"
   >
     <div class="flex gap-8 flex-col">
       <h2 class="font-medium uppercase text-3xl lg:text-5xl lg:pb-16">

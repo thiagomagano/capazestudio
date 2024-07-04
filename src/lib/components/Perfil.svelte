@@ -3,61 +3,24 @@
 </script>
 
 <div class="flex flex-col gap-4">
-  <div class="h-[2px] w-full bg-gray-500 mb-24"></div>
+  <div class="profile w-80 h-96 relative overflow-hidden group">
+    <div
+      class="w-full h-full bg-cover bg-center group-hover:scale-105 hover:bg-opacity-65 transition duration-1000 ease-in-out"
+      style="background-image: url('/perfil/{foto}');"
+    ></div>
 
-  {#if i % 2 === 0}
-    {#if i == 2}
-      <div class="profile size-64 relative overflow-hidden mt-6">
-        <div
-          class="w-full h-full bg-cover bg-center hover:scale-110 transition duration-1000 ease-in-out"
-          style="background-image: url('/perfil/{foto}');"
-        ></div>
-      </div>
-    {:else}
-      <div class="profile size-64 relative overflow-hidden">
-        <div
-          class="w-full h-full bg-cover bg-center hover:scale-110 transition duration-1000 ease-in-out"
-          style="background-image: url('/perfil/{foto}');"
-        ></div>
-      </div>
-    {/if}
-
-    <h3 id="titulo" class="font-semibold text-2xl text-primary uppercase">
-      {nome} <br />
-      {sobrenome}
-    </h3>
-
-    <h4 class="text-primary text-xl font-semibold uppercase">{cargo}</h4>
-
-    <p class="text-justify font-long text-lg">{desc}</p>
-
-    <!-- USANDO IF PRA FAZER AS COLUNAS SEREM ASSIMETRICAS -->
-  {:else}
-    {#if i == 1}
-      <h3
-        id="titulo"
-        class="font-semibold text-2xl text-primary uppercase mt-28"
-      >
-        {nome} <br />
-        {sobrenome}
-      </h3>
-    {:else}
-      <h3 id="titulo" class="font-semibold text-2xl text-primary uppercase">
-        {nome} <br />
-        {sobrenome}
-      </h3>
-    {/if}
-    <h4 class="text-primary text-xl font-semibold uppercase">
-      {cargo}
-    </h4>
-
-    <div class="profile size-64 relative overflow-hidden">
-      <div
-        class="w-full h-full bg-cover bg-center hover:scale-110 transition duration-1000 ease-in-out"
-        style="background-image: url('/perfil/{foto}');"
-      ></div>
+    <div
+      class="opacity-0 group-hover:opacity-100 duration-300 absolute inset-0 z-10 flex text-secondary items-end font-medium bg-black/85"
+    >
+      <p class=" font-long py-4 px-6">{desc}</p>
     </div>
-
-    <p class="text-justify font-long text-lg">{desc}</p>
-  {/if}
+  </div>
+  <h4 class=" text-xl font-medium uppercase text-secondary">{cargo}</h4>
+  <h3 id="titulo" class="text-2xl font-semibold uppercase text-primary">
+    {nome} <br />
+    {sobrenome}
+  </h3>
 </div>
+
+<style lang="postcss">
+</style>

@@ -25,8 +25,4 @@
   :global(html) {
     background-color: theme(colors.gray.100);
   }
-
-  :global(a) {
-    @apply font-medium underline-offset-4 transition-all delay-100 duration-100 ease-in-out hover:text-capaz-orange-500 hover:underline;
-  }
 </style>
