@@ -1,6 +1,6 @@
 <script>
   import scrollIntoView from "../../utils/scrollIntoView";
-  import { Hamburger } from "svelte-hamburgers";
+  import Hamburger from "$lib/components/ui/hamburguer/Hamburguer.svelte";
   import Menu from "$lib/components/ui/hamburguer/MenuHamburguer.svelte";
 
   let open;
