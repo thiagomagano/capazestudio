@@ -1,7 +1,3 @@
-<!--
-    A Svelte component implementation of hamburgers.css by Jonathan Suh
-    https://jonsuh.com/hamburgers
--->
 <script>
   /**
    * Open boolean

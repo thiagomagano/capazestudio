@@ -55,7 +55,11 @@
       <h2 class="font-medium uppercase text-3xl lg:text-5xl lg:pb-16">
         Serviços
       </h2>
-      <img src="/svg/Servicos.svg" alt="Icone de serviços" class="size-10" />
+      <img
+        src="/svg/Servicos.svg"
+        alt="Icone de serviços"
+        class=" size-7 lg:size-10"
+      />
       <p class="text-lg lg:text-2xl font-long">
         Guiamos nossos clientes em todos os caminhos necessários relacionados a
         uma marca. Seja relacionado a parte estratégica, visual ou tecnológica.
