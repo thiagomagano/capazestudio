@@ -7,6 +7,10 @@
   import Contato from "$lib/components/sections/Contato.svelte";
 </script>
 
+<svelte:head>
+  <title>Capaz Estúdio</title>
+</svelte:head>
+
 <Navbar />
 
 <main class="overflow-hidden">
