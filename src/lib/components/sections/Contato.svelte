@@ -50,7 +50,7 @@
         <div class="relative z-0 w-full">
           <input
             id="textarea"
-            class="block py-3.5 px-0 w-full h-24 text-lg bg-transparent border-0 border-b-2 border-black appearance-none focus:outline-none focus:ring-0 focus:border-primary peer"
+            class="font-long block py-3.5 px-0 w-full h-24 text-lg bg-transparent border-0 border-b-2 border-black appearance-none focus:outline-none focus:ring-0 focus:border-primary peer"
             placeholder=""
             role="textbox"
           />
@@ -60,11 +60,6 @@
             >Mensagem</label
           >
         </div>
-
-        <!-- <textarea
-          class="border-b-black border-b-2 text-2xl py-4 uppercase w-full"
-          placeholder="Mensagem"
-        ></textarea> -->
 
         <button
           class="bg-primary text-white py-4 px-4 text-2xl uppercase self-end shrink-0 w-full lg:w-fit"
@@ -106,7 +101,7 @@
         <img
           src="/svg/Instagram-Linkedin.svg"
           alt="Seta para baixo"
-          class="size-4 mt-1"
+          class="size-3 lg:size-4 mt-1"
         />
         <a href="https://instagram.com/capazestudio" target="_blank">
           Instragram
@@ -116,7 +111,7 @@
         <img
           src="/svg/Instagram-Linkedin.svg"
           alt="Seta para baixo"
-          class="size-4 mt-1"
+          class="size-3 lg:size-4 mt-1"
         />
         <a
           href="https://www.linkedin.com/company/capaz-est%C3%BAdio"
@@ -131,7 +126,7 @@
   <div class="flex justify-between items-center flex-wrap">
     <div>
       <p>Mande uma Mensagem</p>
-      <p>contato@capazestudio.com.br</p>
+      <p class="text-sm">contato@capazestudio.com.br</p>
     </div>
 
     <div>
@@ -154,7 +149,7 @@
         alt="Logo Capaz Estúdio"
         class="size-28 lg:size-32"
       />
-      <h4 class="uppercase text-right text-xl -mt-4 lg:mt-0">Estúdio</h4>
+      <h4 class="uppercase text-right text-xl -mt-6 lg:mt-0">Estúdio</h4>
     </div>
   </div>
 </footer>
