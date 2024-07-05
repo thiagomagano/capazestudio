@@ -58,9 +58,9 @@
     <h1 class="row-start-3 col-span-4">Solucionar</h1>
 
     <!-- <TypeWriter
-        texts={["Solucionar", "Humanizar", "Cativar", "Conectar", "Engajar"]}
-        cl="font-medium uppercase tracking-wide leading-[0.8] md:text-[6.5rem] lg:text-[8.5rem] xl:text-[12.2rem] 2xl:text-[13rem]"
-      /> -->
+      texts={["Solucionar", "Humanizar", "Cativar", "Conectar", "Engajar"]}
+      cl="font-medium uppercase tracking-wide leading-[0.8] md:text-[6.5rem] lg:text-[8.5rem] xl:text-[12.2rem] 2xl:text-[13rem]"
+    /> -->
 
     <div
       class="invisible size-16 lg:absolute lg:visible lg:size-[3rem] lg:top-[31%] lg:left-[1%] xl:size-[4.5rem] xl:-left-[2%] xl:top-[27.5%] 2xl:size-[5.5rem]"
