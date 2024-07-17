@@ -5,6 +5,7 @@
   import QuemSomos from "$lib/components/sections/QuemSomos.svelte";
   import Time from "$lib/components/sections/Time.svelte";
   import Contato from "$lib/components/sections/Contato.svelte";
+  import Rodape from "$lib/components/sections/Rodape.svelte";
 </script>
 
 <svelte:head>
@@ -13,7 +14,7 @@
 
 <Navbar />
 
-<main class="overflow-hidden">
+<main class="overflow-hidden border">
   <Headline />
 
   <Servicos />
@@ -23,6 +24,8 @@
   <Time />
 
   <Contato />
+
+  <Rodape />
 </main>
 
 <style lang="postcss">

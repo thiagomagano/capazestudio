@@ -33,19 +33,23 @@
   ];
 </script>
 
-<section id="time" class="bg-black text-secondary">
-  <div
-    class="container mx-auto py-32 px-4 lg:px-12 flex flex-col gap-y-20 flex-wrap"
-  >
-    <div class="flex items-center justify-between w-full flex-wrap">
-      <div class="flex flex-col gap-12">
-        <h2 class="text-4xl font-medium uppercase text-nowrap pb-4 lg:pb-0">
+<section id="time" class="bg-black text-secondary py-32">
+  <div class="container mx-auto px-4 lg:px-0 space-y-32 flex-wrap">
+    <div
+      class="grid 2xl:grid-cols-4 lg:grid-cols-2 w-full grid-cols-1 gap-10 xl:gap-0"
+    >
+      <div class="flex flex-col justify-between">
+        <h2
+          class="text-4xl font-medium uppercase text-nowrap pb-4 xl:pb-0 col-start-1"
+        >
           Nosso Time
         </h2>
         <img src="svg/Time.svg" alt="Icone do Time" class="size-10" />
       </div>
 
-      <p class="text-xl font-long max-w-md">
+      <p
+        class="text-[1.25rem] leading-tight font-long 2xl:col-start-4 max-w-md xl:max-w-[350px] ml-0 xl:ml-8"
+      >
         Somos a união de quatro grandes núcleos: comercial, estratégico,
         criativo e tecnológico. Temos um olhar analítico e trazemos grandes
         experiências adquiridas ao longo do tempo.
@@ -53,7 +57,7 @@
     </div>
 
     <div
-      class="flex gap-8 flex-wrap items-center justify-center md:justify-normal md:[&>*:nth-child(odd)]:pb-40"
+      class="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-4 gap-10 items-center justify-between md:justify-normal md:[&>*:nth-child(odd)]:pb-40"
     >
       {#each profiles as { nome, sobrenome, cargo, foto, desc }, i}
         <Perfil {nome} {sobrenome} {cargo} {foto} {desc} {i} />

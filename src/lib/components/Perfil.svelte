@@ -2,8 +2,8 @@
   let { nome, sobrenome, cargo, foto, desc, i } = $props();
 </script>
 
-<div class="flex flex-col gap-4">
-  <div class="profile w-80 h-96 relative overflow-hidden group">
+<div class="space-y-4">
+  <div class="profile w-300px sm:w-[350px] h-96 relative overflow-hidden group">
     <div
       class="w-full h-full bg-cover bg-center group-hover:scale-105 hover:bg-opacity-65 transition duration-1000 ease-in-out"
       style="background-image: url('/perfil/{foto}');"
