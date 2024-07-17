@@ -1,15 +1,15 @@
 <section id="quemsomos" class="bg-white">
-  <div class="container mx-auto py-16 px-4 lg:px-8">
+  <div class="container mx-auto px-4 xl:px-0 space-y-32 border py-32">
     <div
       class="text-[2.8rem] text-nowrap lg:text-9xl xl:text-[130px] font-semibold uppercase tracking-normal w-full lg:text-right leading-[1.10]"
     >
-      <div class="flex flex-row items-baseline lg:justify-end mr-4">
+      <div class="flex flex-row items-baseline lg:justify-end mr-1">
         <h2>Por Pessoas,</h2>
         <div
-          class="hidden lg:block lg:h-[80px] w-[30%] bg-gray-200 ml-4 relative overflow-hidden"
+          class="hidden lg:block lg:h-[84px] w-[30%] bg-gray-200 ml-4 relative overflow-hidden"
         >
           <div
-            class="w-full h-full bg-cover bg-[center_bottom_140px] hover:scale-110 transition duration-1000 ease-in-out"
+            class="w-full h-full bg-cover bg-[center_bottom_138px] hover:scale-110 transition duration-1000 ease-in-out"
             style="background-image: url('/Imagens/porpessoas.jpg');"
           ></div>
         </div>
@@ -17,10 +17,10 @@
       <div class="flex flex-row items-center gap-2 lg:justify-end">
         <h2 class="">Para</h2>
         <div
-          class="hidden lg:block lg:h-[80px] w-[290px] bg-gray-200 mx-4 mt-2 relative overflow-hidden"
+          class="hidden lg:block lg:h-[80px] w-[290px] bg-gray-200 mx-4 mt-[17px] relative overflow-hidden"
         >
           <div
-            class="h-[80px] w-full bg-cover bg-[center_bottom_195px] hover:scale-110 transition duration-1000 ease-in-out"
+            class="lg:h-full w-full bg-cover bg-[center_bottom_195px] hover:scale-110 transition duration-1000 ease-in-out"
             style="background-image: url('/Imagens/parapessoas.jpg');"
           ></div>
         </div>
@@ -32,19 +32,19 @@
       <div class="flex flex-row items-center lg:justify-end">
         <h2 class=" text-primary">juntos.</h2>
         <div
-          class="lg:h-[82px] w-[20%] bg-gray-200 mx-4 mt-4 relative overflow-hidden"
+          class="xl:h-[85px] w-[21%] bg-gray-200 ml-4 mt-3 mr-1 relative overflow-hidden"
         >
           <div
-            class="hidden lg:block lg:h-[80px] w-full bg-cover bg-[center_bottom_285px] hover:scale-110 transition duration-1000 ease-in-out"
+            class="hidden lg:block xl:h-full w-full bg-cover bg-[center_bottom_320px] hover:scale-110 transition duration-1000 ease-in-out"
             style="background-image: url('/Imagens/juntos.jpg');"
           ></div>
         </div>
       </div>
     </div>
 
-    <div class="grid grid-cols-1 lg:flex gap-10 pt-16">
+    <div class="grid grid-cols-1 lg:flex gap-10">
       <!-- ----------------- -->
-      <div class="flex flex-col lg:gap-y-28 gap-y-4 gap-x-4">
+      <div class="flex flex-col gap-y-4 gap-x-4 justify-between">
         <h2 class="font-semibold text-2xl lg:text-4xl uppercase">Manifesto</h2>
         <img
           src="svg/manifesto_icon.svg"
@@ -60,7 +60,7 @@
         />
       </div>
 
-      <p class="text-xl font-long leading-7 max-w-lg text-justify">
+      <p class="text-xl font-long leading-snug max-w-lg text-justify">
         Somos capazes de guiar caminhos, através da competência, criatividade e
         modernização. Respeitamos a singularidade de cada projeto, sempre
         buscando transmitir a essência de nossos clientes. Damos um toque humano
@@ -74,17 +74,16 @@
       </p>
 
       <p
-        class="hidden lg:block text-xl font-long leading-7 max-w-lg text-justify"
+        class="hidden lg:block text-xl font-long leading-snug max-w-lg text-justify"
       >
         Desenvolvemos soluções criativas para cocriar com empresas e lançar seus
         produtos e serviços de forma segura no mercado. Construir parcerias
-        sólidas e duradouras é o nosso legado. Orientaremos nossos clientes de
-        maneira criativa, inovadora e personalizada através da performance
-        adequada para cada situação. Ser Capaz é trazer emoção, criatividade e
-        integridade para o público-alvo através dos nossos projetos,
-        manifestando propósitos através de estratégia, visual e tecnologia.
-        Assim nos comprometemos a gerar o melhor resultado para os nossos
-        clientes.
+        sólidas e duradouras é o nosso legado. Orientaremos de maneira criativa,
+        inovadora e personalizada através da performance adequada para cada
+        situação. Ser Capaz é trazer emoção, criatividade e integridade para o
+        público-alvo através dos nossos projetos, manifestando propósitos
+        através de estratégia, visual e tecnologia. Assim nos comprometemos a
+        gerar o melhor resultado para os nossos clientes.
       </p>
 
       <div class="lg:hidden flex items-center justify-center py-8">

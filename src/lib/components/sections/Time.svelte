@@ -28,7 +28,7 @@
       sobrenome: "Magano",
       cargo: "Desenvolvedor",
       foto: "thiago.jpg",
-      desc: "Guri da TI há mais de 10 anos, especializado em desenvolvimento web. Focado em agilidade e qualidade. Curioso, antenado e entusiasta de novas tecnologias.",
+      desc: "Guri da TI há mais de dez anos, especializado em desenvolvimento web. Focado em agilidade e qualidade. Curioso, antenado e entusiasta de novas tecnologias.",
     },
   ];
 </script>
