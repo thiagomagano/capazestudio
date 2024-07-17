@@ -1,5 +1,5 @@
 <script>
-  const numeroTelefone = "99999999";
+  const numeroTelefone = "5551992626357";
 </script>
 
 <section id="contato" class="bg-white py-16 lg:px-8 px-4">
@@ -13,7 +13,7 @@
         class="size-10 lg:size-16 absolute top-0 left-0"
       />
       <h2
-        class="text-[3.8rem] leading-tight xl:text-9xl font-semibold uppercase"
+        class="text-[3.8rem] leading-tight xl:text-8xl font-semibold uppercase"
       >
         Vamos <br /> Conversar
       </h2>
@@ -92,7 +92,7 @@
           href="https://api.whatsapp.com/send?phone={numeroTelefone}"
           target="_blank"
         >
-          (51) 99999.9999
+          (51) 99262.6357
         </a>
       </div>
     </div>
@@ -126,7 +126,7 @@
   <div class="flex justify-between items-center flex-wrap">
     <div>
       <p>Mande uma Mensagem</p>
-      <p class="text-sm">contato@capazestudio.com.br</p>
+      <p class="text-sm lg:text-lg">contato@capazestudio.com.br</p>
     </div>
 
     <div>
@@ -149,7 +149,7 @@
         alt="Logo Capaz Estúdio"
         class="size-28 lg:size-32"
       />
-      <h4 class="uppercase text-right text-xl -mt-6 lg:mt-0">Estúdio</h4>
+      <h4 class="uppercase text-right text-xl -mt-6">Estúdio</h4>
     </div>
   </div>
 </footer>

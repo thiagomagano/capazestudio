@@ -117,6 +117,6 @@
 
 <style lang="postcss">
   h1 {
-    @apply text-right text-[3.90rem] font-medium uppercase leading-[0.9] tracking-normal sm:text-[7rem] md:text-[8.5rem] lg:text-[9.5rem] xl:text-[12.5rem] 2xl:text-[15.7rem];
+    @apply text-right text-[3.90rem] font-medium uppercase leading-[0.9] tracking-normal sm:text-[7rem] md:text-[8.5rem] lg:text-[9rem] xl:text-[10rem] 2xl:text-[14.7rem];
   }
 </style>
