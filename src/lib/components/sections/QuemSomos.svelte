@@ -1,5 +1,5 @@
 <section id="quemsomos" class="bg-white">
-  <div class="container mx-auto px-4 xl:px-0 space-y-32 border py-32">
+  <div class="container mx-auto px-4 xl:px-0 space-y-32 py-32">
     <div
       class="text-[2.8rem] text-nowrap lg:text-9xl xl:text-[130px] font-semibold uppercase tracking-normal w-full lg:text-right leading-[1.10]"
     >

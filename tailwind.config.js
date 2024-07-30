@@ -50,27 +50,14 @@ export default {
     //   "5xl": "3.052rem",
     // },
     extend: {
-      keyframes: {
-        typing: {
-          "0%": {
-            width: "0%",
-            visibility: "hidden",
-          },
-          "100%": {
-            width: "135%",
-          },
-        },
-        blink: {
-          "50%": {
-            borderColor: "transparent",
-          },
-          "100%": {
-            borderColor: "primary",
-          },
-        },
-      },
       animation: {
-        typing: "typing 2s steps(20), blink .7s infinite",
+        "loop-scroll": "loop-scroll 50s linear infinite",
+      },
+      keyframes: {
+        "loop-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
       },
     },
   },

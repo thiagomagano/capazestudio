@@ -1,31 +1,32 @@
 <script>
-  import Navbar from "$lib/components/sections/Navbar.svelte";
   import Headline from "$lib/components/sections/Headline.svelte";
   import Servicos from "$lib/components/sections/Servicos.svelte";
   import QuemSomos from "$lib/components/sections/QuemSomos.svelte";
   import Time from "$lib/components/sections/Time.svelte";
   import Contato from "$lib/components/sections/Contato.svelte";
-  import Rodape from "$lib/components/sections/Rodape.svelte";
+
+  import Projetos from "../lib/components/sections/Projetos.svelte";
+  import Clientes from "../lib/components/sections/Clientes.svelte";
 </script>
 
 <svelte:head>
-  <title>Capaz Estúdio</title>
+  <title>Capaz Estúdio - Home</title>
 </svelte:head>
 
-<Navbar />
-
-<main class="overflow-hidden border">
+<main class="overflow-hidden">
   <Headline />
 
   <Servicos />
 
   <QuemSomos />
 
+  <Projetos />
+
   <Time />
 
-  <Contato />
+  <Clientes />
 
-  <Rodape />
+  <Contato />
 </main>
 
 <style lang="postcss">

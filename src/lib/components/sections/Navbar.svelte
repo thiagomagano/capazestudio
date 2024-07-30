@@ -6,13 +6,14 @@
   let open;
 </script>
 
-<nav class="bg-secondary text-black w-full border-gray-500">
+<nav class="bg-secondary text-black w-full">
   <div
     class="flex flex-row justify-between items-center px-3 lg:px-12 py-8 3xl:container 3xl:mx-auto 3xl:px-0"
   >
-    <div class="w-48">
+    <a href="/" class="w-48">
       <img src="/svg/Logo-nav-bar.svg" alt="Logo Capaz Studio" class="w-full" />
-    </div>
+      <span class="hidden">Capaz Estúdio</span>
+    </a>
 
     <ul role="list" class="hidden md:flex gap-4 uppercase items-center text-xl">
       <li>
@@ -23,6 +24,9 @@
         <a href="#quemsomos" on:click|preventDefault={scrollIntoView}>
           Quem Somos</a
         >
+      </li>
+      <li>
+        <a href="/projetos"> Projetos</a>
       </li>
       <li>
         <a href="#time" on:click|preventDefault={scrollIntoView}> Time</a>
