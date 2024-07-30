@@ -13,9 +13,21 @@
 </script>
 
 <section class="py-12 bg-secondary space-y-12">
-  <div class="flex justify-between items-center container mx-auto">
-    <h2 class="uppercase text-[44px]">São Capazes</h2>
-    <img src="/svg/icon-clientes.svg" alt="Icone de Clientes" class="size-12" />
+  <div class=" container mx-auto flex justify-between">
+    <div class="flex flex-col gap-8">
+      <h2 class="text-4xl font-medium uppercase">São Capazes</h2>
+      <img
+        src="/svg/icon-clientes.svg"
+        alt="Icone de Clientes"
+        class="size-12"
+      />
+    </div>
+    <div>
+      <p class="font-body max-w-sm">
+        Mais que Clientes (friends) que confiaram no nosso trabalho e somos
+        muito orgulhosos de fazer parte da história dessas grandes empresas!
+      </p>
+    </div>
   </div>
 
   <div class="flex overflow-hidden space-x-4">

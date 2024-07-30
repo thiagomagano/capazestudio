@@ -21,6 +21,7 @@
   },
   "type": "module",
   "dependencies": {
-    "bits-ui": "^0.21.10"
+    "bits-ui": "^0.21.10",
+    "pocketbase": "^0.21.4"
   }
 }

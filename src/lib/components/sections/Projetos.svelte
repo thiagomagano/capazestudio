@@ -3,26 +3,36 @@
 </script>
 
 <section id="projetos" class="py-20 bg-secondary space-y-[100px]">
-  <div class="min-h-[240px] flex container mx-auto justify-between">
-    <div class="flex justify-between flex-col">
-      <h2 class="uppercase text-[44px]">Projetos</h2>
+  <div
+    class="grid grid-cols-1 sm:grid-cols-2 container mx-auto place-items-start gap-y-20 px-4 sm:px-0"
+  >
+    <div class="flex items-center sm:items-start sm:flex-col gap-24">
+      <h2
+        class="text-4xl font-medium uppercase text-nowrap pb-4 xl:pb-0 col-start-1"
+      >
+        Projetos
+      </h2>
+
       <img
         src="/svg/icon-projetos.svg"
         alt="Icone de Projetos"
         class="size-12"
       />
     </div>
-    <div class="flex justify-between flex-col">
+
+    <div
+      class="sm:place-self-end flex flex-row-reverse sm:flex-col items-start sm:gap-24 gap-10"
+    >
       <a
         href="/projetos"
-        class="flex gap-6 mt-3 hover:underline focus:underline hover:text-primary"
+        class="flex items-center justify-center gap-2 hover:underline focus:underline hover:text-primary"
       >
         <img
           src="/svg/veja-todos.png"
           alt="Seta para link"
-          class="mt-4 animate-pulse"
+          class="size-3 mt-3"
         />
-        <span class=" text-4xl">Ver Todos </span>
+        <span class=" text-xl">Ver Todos </span>
       </a>
       <p class="max-w-[210px] text-[18px] font-body">
         Clique e conheça alguns de nossos trabalhos.
