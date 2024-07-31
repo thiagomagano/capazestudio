@@ -1,9 +1,10 @@
-const PB_ADMIN_USER = "othymag@gmail.com";
-const PB_ADMIN_PASS = "S3nha@pbapi";
+import { error, fail } from "@sveltejs/kit";
+
+import enviarEmail from "$lib/utils/enviarEmail";
 
 /** @type {import('./$types').Actions} */
 export const actions = {
-  default: async ({ request, locals, params }) => {
+  default: async ({ request, locals }) => {
     const data = await request.formData();
     const nome = data.get("nome");
     const email = data.get("email");
@@ -15,61 +16,45 @@ export const actions = {
 
     if (!nome) {
       return fail(400, {
-        missingName: true,
-        msg: "O campo Nome é obrigatório",
+        semNome: true,
+        msg: "O campo é obrigatório",
       });
     }
-
+    if (!email) {
+      return fail(400, {
+        semEmail: true,
+        msg: "O campo é obrigatório",
+      });
+    }
     if (!mensagem) {
       return fail(400, {
-        missingProposta: true,
-        msg: "O campo Proposta é obrigatório",
+        semMsg: true,
+        msg: "O campo é obrigatório",
       });
     }
-
-    const pbData = {
-      nome: nome,
-      whatsapp: whatsapp,
-      email: email,
-      troca: troca === "on" ? true : false,
-      proposta: proposta,
-      idCarro: params.slug,
-    };
-
-    const userData = {
-      nome: nome,
-      email: email,
-      mensagem: mensagem,
-    };
 
     const templateBody = `<div>
         <h1>Uma nova mensagem foi recebida</h1>
-        <p><strong>Nome:</strong> ${userData.nome} </p>
-        <p><strong>Email:</strong> ${userData.email} </p>
-        <p><strong>Mensagem:</strong> ${userData.mensagem} </p>
+        <p><strong>Nome:</strong> ${nome} </p>
+        <p><strong>Email:</strong> ${email} </p>
+        <p><strong>Mensagem:</strong> ${mensagem} </p>
       </div>`;
 
-    const templateSubject = `NOVA MENSAGEM RECEBIDA - ${userData.nome}`;
+    const templateSubject = `${nome} MANDOU UMA NOVA MENSAGEM VIA SITE `;
     const EmailList = ["contato@capazestudio.com.br"];
 
-    await locals.pb.admins.authWithPassword(PB_ADMIN_USER, PB_ADMIN_PASS);
-
-    //const record = await locals.pb.collection("propostas").create(pbData);
-    //const recordUser = await locals.pb.collection("clientes").create(userData);
-
-    const dataEmail = await sendEmail(
-      userData.email,
+    const dataEmail = await enviarEmail(
+      "site@capazestudio.com.br",
       EmailList,
       templateSubject,
       templateBody,
     );
 
-    if (!record) throw error(400, { msg: "Erro ao criar registro" });
+    if (dataEmail.error) throw error(400, { msg: "erro ao enviar email" });
 
     return {
       success: true,
-      record: JSON.stringify(record),
-      msg: "Proposta enviada.",
+      msg: "Mensagem Enviada, obrigado!",
     };
   },
 };
