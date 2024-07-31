@@ -7,6 +7,8 @@
 
   import Projetos from "../lib/components/sections/Projetos.svelte";
   import Clientes from "../lib/components/sections/Clientes.svelte";
+
+  export let form;
 </script>
 
 <svelte:head>
@@ -26,7 +28,7 @@
 
   <Clientes />
 
-  <Contato />
+  <Contato {form} />
 </main>
 
 <style lang="postcss">
