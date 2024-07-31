@@ -20,7 +20,7 @@
 
   <QuemSomos />
 
-  <Projetos />
+  <!-- <Projetos /> -->
 
   <Time />
 

@@ -24,8 +24,8 @@
     </div>
     <div>
       <p class="font-body max-w-sm">
-        Mais que Clientes (friends) que confiaram no nosso trabalho e somos
-        muito orgulhosos de fazer parte da história dessas grandes empresas!
+        Clientes que confiaram no nosso trabalho e nos deixaram muito orgulhosos
+        por fazer parte da história dessas grandes empresas!
       </p>
     </div>
   </div>
