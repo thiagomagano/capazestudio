@@ -22,7 +22,7 @@
 
   <QuemSomos />
 
-  <!-- <Projetos /> -->
+  <Projetos />
 
   <Time />
 

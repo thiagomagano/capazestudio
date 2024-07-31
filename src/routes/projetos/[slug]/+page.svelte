@@ -5,13 +5,6 @@
   const listaFotosB = data?.fotos?.slice(4);
 </script>
 
-<!-- 
-1 foto - capa
-texto
-4 fotos
-texto
-8 fotos 
--->
 <section class="min-h-screen bg-secondary space-y-4 py-20">
   <div class="container mx-auto space-y-8 py-10">
     <div>
@@ -62,4 +55,6 @@ texto
       </div>
     {/each}
   </div>
+
+  <!-- TODO Carrousel Infinito com outros projetos -->
 </section>

@@ -1,4 +1,8 @@
-<div id="card" class="">
+<script>
+  const { link } = $props();
+</script>
+
+<a href="/projetos/{link}" id="card" class="">
   <img
     src="/projetos/bibah.jpg"
     alt="Capa do Projeto Bibah"
@@ -10,4 +14,4 @@
     <h4 class="text-2xl font-medium uppercase">Bibah</h4>
     <p class="uppercase">Bar</p>
   </div>
-</div>
+</a>

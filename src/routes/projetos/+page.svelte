@@ -18,12 +18,12 @@
     </div>
 
     <div class="grid-cols-2 grid grid-flow-row justify-center items-center">
-      <CardProjeto />
-      <CardProjeto />
-      <CardProjeto />
-      <CardProjeto />
-      <CardProjeto />
-      <CardProjeto />
+      <CardProjeto link="1" />
+      <CardProjeto link="2" />
+      <CardProjeto link="3" />
+      <CardProjeto link="4" />
+      <CardProjeto link="5" />
+      <CardProjeto link="6" />
     </div>
   </div>
 </section>
