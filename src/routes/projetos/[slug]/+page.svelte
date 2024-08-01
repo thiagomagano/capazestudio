@@ -11,7 +11,7 @@
   <div class="container mx-auto space-y-8 py-10">
     <div>
       <h1 class="text-[80px] font-semibold leading-[90px]">{data.titulo}</h1>
-      <h2 class="sub text-[24px] font-medium leading-[35px] text-primary">
+      <h2 class="sub text-[24px] font-medium leading-[35px]">
         {data.seguimento}
       </h2>
     </div>
@@ -51,9 +51,7 @@
       {/each}
     </div>
     <div class="grid grid-cols-4 py-20">
-      <h3 class="grid-span-1 text-[48px] font-bold text-primary uppercase">
-        Sobre
-      </h3>
+      <h3 class="grid-span-1 text-[48px] font-medium uppercase">Sobre</h3>
       <p class="col-start-2 col-span-2 text-[20px] leading-[32px] font-body">
         {@html data.sobre}
       </p>
