@@ -1,5 +1,5 @@
 <script>
-  import getUrlImageFromPB from "$lib/utils/getUrlimagesFromPB.js";
+  import getUrlImageFromPB from "$lib/utils/getUrlImagesFromPB.js";
   const { Case, full } = $props();
 </script>
 
