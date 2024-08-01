@@ -15,6 +15,10 @@
       label: "Quem Somos",
     },
     {
+      link: "projetos",
+      label: "Projetos",
+    },
+    {
       link: "time",
       label: "Time",
     },

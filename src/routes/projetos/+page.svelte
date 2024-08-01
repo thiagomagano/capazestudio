@@ -10,7 +10,7 @@
   <title>Capaz Estúdio - Projetos</title>
 </svelte:head>
 
-<section class="bg-secondary">
+<section class="bg-secondary px-4 lg:px-0">
   <div class="container mx-auto py-20 space-y-20">
     <div class="flex justify-between">
       <h1 class="text-5xl font-medium uppercase">Projetos</h1>
@@ -22,7 +22,7 @@
     </div>
 
     <div
-      class="grid-cols-2 grid grid-flow-row justify-center items-center gap-4"
+      class="lg:grid-cols-2 grid grid-flow-row justify-center items-center gap-4"
     >
       {#each Cases as Case}
         <CardProjeto {Case} full={true} />

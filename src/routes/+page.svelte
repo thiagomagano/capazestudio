@@ -4,6 +4,7 @@
   import QuemSomos from "$lib/components/sections/QuemSomos.svelte";
   import Time from "$lib/components/sections/Time.svelte";
   import Contato from "$lib/components/sections/Contato.svelte";
+  import Navbar from "$lib/components/sections/Navbar.svelte";
 
   import Projetos from "../lib/components/sections/Projetos.svelte";
   import Clientes from "../lib/components/sections/Clientes.svelte";

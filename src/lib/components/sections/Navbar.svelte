@@ -3,7 +3,9 @@
   import Hamburger from "$lib/components/ui/hamburguer/Hamburguer.svelte";
   import Menu from "$lib/components/ui/hamburguer/MenuHamburguer.svelte";
 
-  let open;
+  let open = $state(false);
+
+  const { home } = $props();
 </script>
 
 <nav class="bg-secondary text-black w-full">
@@ -16,24 +18,39 @@
     </a>
 
     <ul role="list" class="hidden md:flex gap-4 uppercase items-center text-xl">
-      <li>
-        <a href="#servicos" on:click|preventDefault={scrollIntoView}>Serviços</a
-        >
-      </li>
-      <li>
-        <a href="#quemsomos" on:click|preventDefault={scrollIntoView}>
-          Quem Somos</a
-        >
-      </li>
-      <li>
-        <a href="/projetos"> Projetos</a>
-      </li>
-      <li>
-        <a href="#time" on:click|preventDefault={scrollIntoView}> Time</a>
-      </li>
-      <li>
-        <a href="#contato" on:click|preventDefault={scrollIntoView}> Contato</a>
-      </li>
+      {#if home}
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/projetos"> Projetos</a>
+        </li>
+        <li></li>
+      {:else}
+        <li>
+          <a href="#servicos" on:click|preventDefault={scrollIntoView}
+            >Serviços</a
+          >
+        </li>
+        <li>
+          <a href="#quemsomos" on:click|preventDefault={scrollIntoView}>
+            Quem Somos</a
+          >
+        </li>
+        <li>
+          <a href="#projetos" on:click|preventDefault={scrollIntoView}>
+            Projetos</a
+          >
+        </li>
+        <li>
+          <a href="#time" on:click|preventDefault={scrollIntoView}> Time</a>
+        </li>
+        <li>
+          <a href="#contato" on:click|preventDefault={scrollIntoView}>
+            Contato</a
+          >
+        </li>
+      {/if}
     </ul>
     <div class="block md:hidden">
       <Hamburger bind:open --color="black" />
