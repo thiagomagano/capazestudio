@@ -9,6 +9,9 @@
   import Clientes from "../lib/components/sections/Clientes.svelte";
 
   export let form;
+  export let data;
+
+  const Cases = data.items;
 </script>
 
 <svelte:head>
@@ -22,7 +25,7 @@
 
   <QuemSomos />
 
-  <Projetos />
+  <Projetos {Cases} />
 
   <Time />
 

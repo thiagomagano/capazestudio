@@ -1,5 +1,9 @@
 <script>
   import CardProjeto from "$lib/components/CardProjeto.svelte";
+
+  export let data;
+
+  const Cases = data.items;
 </script>
 
 <svelte:head>
@@ -17,13 +21,25 @@
       />
     </div>
 
-    <div class="grid-cols-2 grid grid-flow-row justify-center items-center">
-      <CardProjeto link="1" />
-      <CardProjeto link="2" />
-      <CardProjeto link="3" />
-      <CardProjeto link="4" />
-      <CardProjeto link="5" />
-      <CardProjeto link="6" />
+    <div
+      class="grid-cols-2 grid grid-flow-row justify-center items-center gap-4"
+    >
+      {#each Cases as Case}
+        <CardProjeto {Case} full={true} />
+      {/each}
     </div>
+
+    <!-- TODO ORDEM DOS CASES
+
+              Bravo
+              Compe
+              Weon
+              BG
+              Nuv
+              Matheus
+              DG
+              Sabino 
+              
+      -->
   </div>
 </section>

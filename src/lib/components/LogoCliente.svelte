@@ -3,7 +3,7 @@
 </script>
 
 <img
-  src="/clientes/{imageUrl}"
+  src="/svg/clientes/{imageUrl}.svg"
   alt="Logo {cliente}"
-  class="max-w-xs object-contain"
+  class="max-w-none w-48"
 />

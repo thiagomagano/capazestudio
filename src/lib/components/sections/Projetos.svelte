@@ -1,5 +1,7 @@
 <script>
   import CardProjeto from "../CardProjeto.svelte";
+
+  const { Cases } = $props();
 </script>
 
 <section id="projetos" class="py-20 bg-secondary space-y-[100px]">
@@ -45,24 +47,18 @@
       id="carrousel"
       class="flex animate-loop-scroll space-x-4 group-hover:paused"
     >
-      <CardProjeto />
-      <CardProjeto />
-      <CardProjeto />
-      <CardProjeto />
-      <CardProjeto />
-      <CardProjeto />
+      {#each Cases as Case}
+        <CardProjeto {Case} />
+      {/each}
     </div>
     <div
       id="carrousel"
       class="flex animate-loop-scroll space-x-4 group-hover:paused"
       aria-hidden="true"
     >
-      <CardProjeto />
-      <CardProjeto />
-      <CardProjeto />
-      <CardProjeto />
-      <CardProjeto />
-      <CardProjeto />
+      {#each Cases as Case}
+        <CardProjeto {Case} />
+      {/each}
     </div>
   </div>
 </section>

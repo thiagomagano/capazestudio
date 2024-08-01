@@ -1,6 +1,19 @@
 import { error, fail } from "@sveltejs/kit";
+import { PUBLIC_POCKETBASE_URL } from "$env/static/public";
 
 import enviarEmail from "$lib/utils/enviarEmail";
+
+export async function load({ fetch, params }) {
+  const response = await fetch(
+    `${PUBLIC_POCKETBASE_URL}/api/collections/cases/records`,
+  );
+  const Cases = await response.json();
+
+  if (Cases) {
+    return Cases;
+  }
+  throw error(404, "Not found");
+}
 
 /** @type {import('./$types').Actions} */
 export const actions = {
