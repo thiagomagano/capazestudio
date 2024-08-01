@@ -7,8 +7,6 @@ export async function load({ params, fetch }) {
 
   const Case = await response.json();
 
-  console.log(Case);
-
   if (Case) return Case;
 
   throw error(404, "Not found");
