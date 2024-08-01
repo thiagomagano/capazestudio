@@ -1,7 +1,7 @@
 <script>
   export let data;
 
-  import getUrlImageFromPB from "$lib/utils/getUrlimagesFromPB.js";
+  import getUrlImageFromPB from "$lib/utils/getUrlImagesFromPB.js";
 
   const listaFotosA = data?.fotos?.slice(1, 5);
   const listaFotosB = data?.fotos?.slice(5);
