@@ -1,5 +1,5 @@
 <script>
-  import Headline from "$lib/components/sections/Headline.svelte";
+  import Hero from "$lib/components/sections/Hero.svelte";
   import Servicos from "$lib/components/sections/Servicos.svelte";
   import QuemSomos from "$lib/components/sections/QuemSomos.svelte";
   import Time from "$lib/components/sections/Time.svelte";
@@ -20,7 +20,7 @@
 </svelte:head>
 
 <main class="overflow-hidden">
-  <Headline />
+  <Hero />
 
   <Servicos />
 
