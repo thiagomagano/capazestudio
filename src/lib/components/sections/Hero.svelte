@@ -49,12 +49,12 @@
     </div>
 
     <div
-      class="row-start-4 col-start-3 col-span-4 text-nowrap lg:row-start-2 lg:col-start-2 lg:col-span-2 flex justify-center items-center"
+      class="text-nowrap row-start-4 col-start-2 md:row-start-2 lg:col-span-2 flex justify-center items-center place-self-center lg:place-self-auto"
     >
       <a
         href="#contato"
         on:click|preventDefault={scrollIntoView}
-        class="py-4 bg-primary text-secondary text-3xl lg:w-[60%] text-center"
+        class="py-4 mt-4 px-4 lg:px-0 lg:mt-0 bg-primary text-secondary w-full text-sm md:text-xl lg:text-2xl xl:text-3xl lg:w-[60%] text-center"
       >
         E Você, quer ser capaz?
       </a>
@@ -80,28 +80,6 @@
       <TypeWriter
         texts={["Solucionar", "Humanizar", "Cativar", "Conectar", "Engajar"]}
         cl="text-right text-[3.8rem] font-medium uppercase leading-[0.9] tracking-normal sm:text-[7rem] md:text-[9rem] lg:text-[11.5rem] xl:text-[13.5rem] 2xl:text-[15.5rem]"
-      />
-    </div>
-
-    <div
-      class="absolute flex size-40 sm:size-44 md:size-64 -top-[30%] left-0 lg:hidden"
-    >
-      <img
-        src="/svg/Setas/mobile.svg"
-        alt="Seta Apontando para Solucionar"
-        class="w-full"
-        id="MobileSetaEsquerda"
-      />
-    </div>
-
-    <div
-      class="row-start-2 col-start-4 absolute size-16 right-20 top-8 sm:size-36 sm:right-44 sm:top-14 lg:hidden"
-    >
-      <img
-        src="/svg/Setas/mobile_1.svg"
-        alt="Seta apontando para solucionar mobile"
-        class="w-full"
-        id="MobileSetaDireita"
       />
     </div>
   </div>
