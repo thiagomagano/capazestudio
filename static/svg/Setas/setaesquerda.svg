@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Design__x2F__PC" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288.41 711.2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fe5f2d;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fe5f2d;
+        stroke-miterlimit: 10;
+        stroke-width: 3.32px;
+      }
+    </style>
+  </defs>
+  <polyline class="cls-2" points="184.78 132.23 109.7 132.23 109.7 577.55 181.18 577.55" />
+  <polygon class="cls-1"
+    points="170.17 563.96 167.9 566.39 179.9 577.54 167.9 588.7 170.17 591.13 184.78 577.54 170.17 563.96" />
+</svg>
