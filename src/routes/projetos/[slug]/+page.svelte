@@ -7,7 +7,7 @@
   const listaFotosB = data?.fotos?.slice(5);
 </script>
 
-<section class="min-h-screen bg-secondary space-y-4 py-20">
+<section class="min-h-screen bg-secondary space-y-4 py-20 px-4 lg:px-0">
   <div class="container mx-auto space-y-8 py-10">
     <div>
       <h1 class="text-[80px] font-semibold leading-[90px]">{data.titulo}</h1>
@@ -50,7 +50,7 @@
         </div>
       {/each}
     </div>
-    <div class="grid grid-cols-4 py-20">
+    <div class="flex flex-col gap-8 md:grid md:grid-cols-4 py-20">
       <h3 class="grid-span-1 text-[48px] font-medium uppercase">Sobre</h3>
       <p class="col-start-2 col-span-2 text-[20px] leading-[32px] font-body">
         {@html data.sobre}

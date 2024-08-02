@@ -56,7 +56,7 @@
         on:click|preventDefault={scrollIntoView}
         class="py-4 mt-4 px-4 lg:px-0 lg:mt-0 bg-primary text-secondary w-full text-sm md:text-xl lg:text-2xl xl:text-3xl lg:w-[60%] text-center"
       >
-        E Você, quer ser capaz?
+        E tu, quer ser capaz?
       </a>
     </div>
 
