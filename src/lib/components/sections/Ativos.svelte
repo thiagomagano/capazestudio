@@ -18,11 +18,13 @@
         link="https://instagram.com/embutidosesperanca"
         logo="/projetos/esperanca-ativo.svg"
         cliente="esperanca"
+        cor="#db3228"
       />
       <CardAtivo
         link="https://instagram.com/latinasul_distribuidora"
         logo="/projetos/latinasul-ativo.png"
         cliente="latina"
+        cor="#003b51"
       />
     </div>
   </div>
