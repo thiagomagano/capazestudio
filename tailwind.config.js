@@ -44,6 +44,8 @@ export default {
           900: "#3c3c3d",
           950: "#262527",
         },
+        esperanca: "#DB3228",
+        latina: "#003B51",
       },
       fontFamily: {
         display: ["Overused Grotesk"],

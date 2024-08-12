@@ -8,6 +8,7 @@
 
   import Projetos from "../lib/components/sections/Projetos.svelte";
   import Clientes from "../lib/components/sections/Clientes.svelte";
+  import Ativos from "$lib/components/sections/Ativos.svelte";
 
   export let form;
   export let data;
@@ -29,6 +30,8 @@
   <Projetos {Cases} />
 
   <Time />
+
+  <Ativos />
 
   <Clientes />
 
