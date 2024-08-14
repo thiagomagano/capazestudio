@@ -57,7 +57,7 @@
     </div>
 
     <div
-      class="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-4 gap-10 items-center justify-between md:justify-normal md:[&>*:nth-child(odd)]:pb-40"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 items-center justify-between md:justify-normal md:[&>*:nth-child(odd)]:pb-40"
     >
       {#each profiles as { nome, sobrenome, cargo, foto, desc }, i}
         <Perfil {nome} {sobrenome} {cargo} {foto} {desc} {i} />

@@ -10,7 +10,7 @@
 
 <nav class="bg-secondary text-black w-full">
   <div
-    class="flex flex-row justify-between items-center px-3 lg:px-12 py-8 3xl:container 3xl:mx-auto 3xl:px-0"
+    class="flex flex-row justify-between items-center px-3 lg:px-12 py-8 2xl:px-0 mx-auto container sticky top-0"
   >
     <a href="/" class="w-48">
       <img src="/svg/Logo-nav-bar.svg" alt="Logo Capaz Studio" class="w-full" />
@@ -61,6 +61,6 @@
 
 <style lang="postcss">
   a {
-    @apply font-medium transition-all duration-75 ease-linear hover:text-capaz-orange-500;
+    @apply transform font-medium transition-all ease-linear hover:scale-110 hover:text-capaz-orange-500;
   }
 </style>

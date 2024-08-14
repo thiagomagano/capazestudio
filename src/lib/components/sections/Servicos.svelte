@@ -47,35 +47,39 @@
   ];
 </script>
 
-<section id="servicos" class="bg-black text-white w-full flex justify-center">
-  <div
-    class="grid grid-cols-1 px-5 py-8 lg:grid-cols-4 lg:py-36 gap-8 container mx-auto"
-  >
-    <div class="flex gap-8 flex-col">
-      <h2 class="font-medium uppercase text-3xl lg:text-5xl lg:pb-16">
-        Serviços
-      </h2>
-      <img
-        src="/svg/Servicos.svg"
-        alt="Icone de serviços"
-        class=" size-7 lg:size-10"
-      />
-      <p class="text-lg lg:text-2xl font-long">
-        Guiamos nossos clientes em todos os caminhos necessários relacionados a
-        uma marca. Seja relacionado a parte estratégica, visual ou tecnológica.
-      </p>
-    </div>
+<section
+  id="servicos"
+  class="bg-black text-white w-full flex justify-center lg:py-36 px-2 py-8"
+>
+  <div class="mx-auto container flex flex-col justify-center">
+    <h2 class="font-medium uppercase text-3xl lg:text-4xl lg:pb-14 pb-8">
+      Serviços
+    </h2>
 
-    <ListaServico
-      titulo="Publicade"
-      iconUrl="/svg/publi-icon.svg"
-      itens={publicidade}
-    />
-    <ListaServico titulo="Design" iconUrl="/svg/Design.svg" itens={design} />
-    <ListaServico
-      titulo="Tecnologia"
-      iconUrl="/svg/Dev.svg"
-      itens={tecnologia}
-    />
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 container mx-auto">
+      <div class="flex flex-col gap-4 max-w-md lg:gap-24">
+        <img
+          src="/svg/Servicos.svg"
+          alt="Icone de serviços"
+          class="size-7 lg:size-10"
+        />
+        <p class="text-lg lg:text-xl font-long">
+          Guiamos nossos clientes em todos os caminhos necessários relacionados
+          a uma marca. Seja relacionado a parte estratégica, visual ou
+          tecnológica.
+        </p>
+      </div>
+      <ListaServico
+        titulo="Publicade"
+        iconUrl="/svg/publi-icon.svg"
+        itens={publicidade}
+      />
+      <ListaServico titulo="Design" iconUrl="/svg/Design.svg" itens={design} />
+      <ListaServico
+        titulo="Tecnologia"
+        iconUrl="/svg/Dev.svg"
+        itens={tecnologia}
+      />
+    </div>
   </div>
 </section>

@@ -3,9 +3,11 @@
 </script>
 
 <div class="space-y-4">
-  <div class="profile w-300px sm:w-[350px] h-96 relative overflow-hidden group">
+  <div
+    class="profile h-96 lg:h-56 xl:h-72 2xl:h-96 relative overflow-hidden group"
+  >
     <div
-      class="w-full h-full bg-cover bg-center group-hover:scale-105 hover:bg-opacity-65 transition duration-1000 ease-in-out"
+      class="w-full h-full bg-contain bg-no-repeat group-hover:scale-105 hover:bg-opacity-65 transition duration-1000 ease-in-out"
       style="background-image: url('/perfil/{foto}');"
     ></div>
 

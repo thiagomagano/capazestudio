@@ -9,7 +9,7 @@
 >
   <div
     id="headliner"
-    class="container mx-auto grid grid-cols-3 place-items-end w-full lg:place-items-stretch lg:grid-cols-4"
+    class="container mx-auto grid grid-cols-3 place-items-end w-full lg:place-items-stretch lg:grid-cols-4 2xl:pl-28"
   >
     <div
       class="relative hidden lg:col-start-4 lg:row-start-1 text-gray-500 xl:text-2xl lg:text-xl xl:leading-none font-medium lg:flex flex-col text-right items-center justify-center"
@@ -20,7 +20,7 @@
         <h2>Tecnologia</h2>
       </div>
       <div
-        class="hidden lg:absolute lg:block w-[200px] -right-[20%] -top-[5%] xl:w-[240px] xl:-right-[17%] xl:-top-[10%] 2xl:w-[265px] 2xl:-right-[10%] 2xl:-top-[5%]"
+        class="hidden lg:absolute lg:block w-[200px] -right-[20%] -top-[5%] xl:w-[240px] xl:-right-[17%] xl:-top-[10%] 2xl:w-[265px] 2xl:-right-[15%] 2xl:-top-[5%]"
       >
         <img
           src="/svg/Setas/setadireita.svg"
@@ -54,7 +54,7 @@
       <a
         href="#contato"
         on:click|preventDefault={scrollIntoView}
-        class="py-4 mt-4 px-4 lg:px-0 lg:mt-0 bg-primary text-secondary w-full text-sm md:text-xl lg:text-2xl xl:text-3xl lg:w-[60%] text-center"
+        class="py-4 mt-4 px-4 lg:px-0 lg:mt-0 bg-primary text-secondary w-full text-sm md:text-xl lg:text-2xl xl:text-3xl lg:w-[60%] text-center transform transition-transform hover:scale-105"
       >
         E tu, quer ser capaz?
       </a>
@@ -69,7 +69,7 @@
           src="/svg/Setas/setaesquerda.svg"
           alt="Seta Apontando para Solucionar"
           class="w-full self-center"
-          id="setaDireita"
+          id="setaEsquerda"
         />
       </div>
     </h1>
@@ -87,7 +87,7 @@
   <a
     href="#servicos"
     on:click|preventDefault={scrollIntoView}
-    class="flex justify-center items-center mt-8"
+    class="flex justify-center items-center mt-8 transform transition-transform hover:scale-110"
   >
     <img
       src="/svg/Seta-head.svg"
