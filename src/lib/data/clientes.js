@@ -32,6 +32,10 @@ const listaClientes = [
     cliente: "Sabino",
     imageUrl: "Weon",
   },
+  {
+    cliente: "Gazzola",
+    imageUrl: "Gazzola",
+  },
 ];
 
 export default listaClientes;

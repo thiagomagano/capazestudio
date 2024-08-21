@@ -12,8 +12,14 @@
     </div>
 
     <div
-      class="grid lg:grid-cols-2 place-items-center mx-auto gap-4 2xl:px-80 xl:px-48"
+      class="grid lg:grid-cols-3 place-items-center mx-auto gap-4 2xl:px-80 xl:px-48"
     >
+      <CardAtivo
+        link="https://instagram.com/latinasul_distribuidora"
+        logo="/projetos/latinasul-ativo.png"
+        cliente="latina"
+        cor="#003b51"
+      />
       <CardAtivo
         link="https://instagram.com/embutidosesperanca"
         logo="/projetos/esperanca-ativo.svg"
@@ -21,10 +27,10 @@
         cor="#db3228"
       />
       <CardAtivo
-        link="https://instagram.com/latinasul_distribuidora"
-        logo="/projetos/latinasul-ativo.png"
-        cliente="latina"
-        cor="#003b51"
+        link="https://www.instagram.com/gazzola.inc"
+        logo="/projetos/gazzola-ativo-white.svg"
+        cliente="gazzola"
+        cor="#0C325D"
       />
     </div>
   </div>
