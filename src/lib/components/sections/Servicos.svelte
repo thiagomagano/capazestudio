@@ -70,7 +70,7 @@
         </p>
       </div>
       <ListaServico
-        titulo="Publicade"
+        titulo="Publicidade"
         iconUrl="/svg/publi-icon.svg"
         itens={publicidade}
       />
