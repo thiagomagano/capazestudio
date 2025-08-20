@@ -11,9 +11,9 @@
   import Ativos from "$lib/components/sections/Ativos.svelte";
 
   export let form;
-  export let data;
+  //export let data;
 
-  const Cases = data.items;
+  // const Cases = data.items;
 </script>
 
 <svelte:head>
@@ -27,13 +27,13 @@
 
   <QuemSomos />
 
-  <Projetos {Cases} />
+  <!-- <Projetos {Cases} /> -->
 
   <Time />
 
   <Ativos />
 
-  <Clientes />
+  <!-- <Clientes /> -->
 
   <Contato {form} />
 </main>

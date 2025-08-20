@@ -37,11 +37,11 @@
             Quem Somos</a
           >
         </li>
-        <li>
+        <!-- <li>
           <a href="#projetos" on:click|preventDefault={scrollIntoView}>
             Projetos</a
           >
-        </li>
+        </li> -->
         <li>
           <a href="#time" on:click|preventDefault={scrollIntoView}> Time</a>
         </li>

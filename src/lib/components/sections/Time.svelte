@@ -16,13 +16,13 @@
       foto: "alessandra.jpg",
       desc: "Marketing há mais de oito anos, passou por diversos segmentos. Seu maior foco é ser a porta-voz das estratégias das marcas, buscando a melhor forma de apresentá-las no mercado.",
     },
-    {
+    /*  {
       nome: "Douglas",
       sobrenome: "Alff",
       cargo: "Designer Gráfico",
       foto: "douglas.jpg",
       desc: "Dez anos de experiência na área do design, cria projetos visuais que conectam marcas a seus consumidores de forma assertiva e estratégica, agregando valor e gerando resultados positivos.",
-    },
+    }, */
     {
       nome: "Thiago",
       sobrenome: "Magano",
@@ -57,7 +57,7 @@
     </div>
 
     <div
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 items-center justify-between md:justify-normal md:[&>*:nth-child(odd)]:pb-40"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 items-center justify-between md:justify-normal md:[&>*:nth-child(odd)]:pb-40"
     >
       {#each profiles as { nome, sobrenome, cargo, foto, desc }, i}
         <Perfil {nome} {sobrenome} {cargo} {foto} {desc} {i} />

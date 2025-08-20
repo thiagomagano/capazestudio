@@ -1,5 +1,6 @@
 <script>
   const numeroTelefone = "5551992626357";
+  const year = new Date().getFullYear();
 </script>
 
 <footer
@@ -62,7 +63,7 @@
 
     <div>
       <p class="text-transparent">-</p>
-      <p>©️2024</p>
+      <p>©️{year}</p>
     </div>
   </div>
 
