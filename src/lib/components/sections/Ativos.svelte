@@ -21,6 +21,12 @@
         cor="#db3228"
       />
       <CardAtivo
+        link="https://instagram.com/cavalieri_supermercados"
+        logo="/projetos/cavalieri.png"
+        cliente="cavalieri"
+        cor="#f18a01"
+      />
+      <CardAtivo
         link="https://instagram.com/latinasul_distribuidora"
         logo="/projetos/latinasul-ativo.png"
         cliente="latina"
